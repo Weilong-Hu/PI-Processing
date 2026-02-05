@@ -1,0 +1,746 @@
+Numbers,Descriptor,Meaning
+1,MaxAbsEStateIndex,
+2,MaxEStateIndex,
+3,MinAbsEStateIndex,
+4,MinEStateIndex,
+5,qed,Calculate the weighted sum of ADS mapped properties
+6,MolWt,The average molecular weight of the molecule
+7,HeavyAtomMolWt,The average molecular weight of the molecule ignoring hydrogens
+8,ExactMolWt,The exact molecular weight of the molecule
+9,NumValenceElectrons,The number of valence electrons the molecule has
+10,NumRadicalElectrons,The number of radical electrons the molecule has
+11,FpDensityMorgan1,
+12,FpDensityMorgan2,
+13,FpDensityMorgan3,
+14,AvgIpc,This returns the average information content of the coefficients of the characteristic polynomial of the adjacency matrix of a hydrogen-suppressed graph of a molecule.
+15,BalabanJ,Calculate Balaban¡¯s J value for a molecule
+16,BertzCT,A topological index meant to quantify ¡°complexity¡± of molecules.
+17,Chi0,
+18,Chi0n,
+19,Chi0v,
+20,Chi1,
+21,Chi1n,
+22,Chi1v,
+23,Chi2n,
+24,Chi2v,
+25,Chi3n,
+26,Chi3v,
+27,Chi4n,
+28,Chi4v,
+29,HallKierAlpha,
+30,Kappa1,
+31,Kappa2,
+32,Kappa3,
+33,PEOE_VSA1,MOE Charge VSA Descriptor 1 (-inf < x < -0.30)
+34,PEOE_VSA10,MOE Charge VSA Descriptor 10 ( 0.10 <= x < 0.15)
+35,PEOE_VSA11,MOE Charge VSA Descriptor 11 ( 0.15 <= x < 0.20)
+36,PEOE_VSA12,MOE Charge VSA Descriptor 12 ( 0.20 <= x < 0.25)
+37,PEOE_VSA13,MOE Charge VSA Descriptor 13 ( 0.25 <= x < 0.30)
+38,PEOE_VSA2,MOE Charge VSA Descriptor 2 (-0.30 <= x < -0.25)
+39,PEOE_VSA3,MOE Charge VSA Descriptor 3 (-0.25 <= x < -0.20)
+40,PEOE_VSA4,MOE Charge VSA Descriptor 4 (-0.20 <= x < -0.15)
+41,PEOE_VSA5,MOE Charge VSA Descriptor 5 (-0.15 <= x < -0.10)
+42,PEOE_VSA6,MOE Charge VSA Descriptor 6 (-0.10 <= x < -0.05)
+43,PEOE_VSA7,MOE Charge VSA Descriptor 7 (-0.05 <= x < 0.00)
+44,PEOE_VSA8,MOE Charge VSA Descriptor 8 ( 0.00 <= x < 0.05)
+45,PEOE_VSA9,MOE Charge VSA Descriptor 9 ( 0.05 <= x < 0.10)
+46,SMR_VSA10,MOE MR VSA Descriptor 10 ( 4.00 <= x < inf)
+47,SMR_VSA2,MOE MR VSA Descriptor 2 ( 1.29 <= x < 1.82)
+48,SMR_VSA3,MOE MR VSA Descriptor 3 ( 1.82 <= x < 2.24)
+49,SMR_VSA4,MOE MR VSA Descriptor 4 ( 2.24 <= x < 2.45)
+50,SMR_VSA5,MOE MR VSA Descriptor 5 ( 2.45 <= x < 2.75)
+51,SMR_VSA6,MOE MR VSA Descriptor 6 ( 2.75 <= x < 3.05)
+52,SMR_VSA7,MOE MR VSA Descriptor 7 ( 3.05 <= x < 3.63)
+53,SMR_VSA9,MOE MR VSA Descriptor 9 ( 3.80 <= x < 4.00)
+54,SlogP_VSA1,MOE logP VSA Descriptor 1 (-inf < x < -0.40)
+55,SlogP_VSA10,MOE logP VSA Descriptor 10 ( 0.40 <= x < 0.50)
+56,SlogP_VSA11,MOE logP VSA Descriptor 11 ( 0.50 <= x < 0.60)
+57,SlogP_VSA12,MOE logP VSA Descriptor 12 ( 0.60 <= x < inf)
+58,SlogP_VSA2,MOE logP VSA Descriptor 2 (-0.40 <= x < -0.20)
+59,SlogP_VSA3,MOE logP VSA Descriptor 3 (-0.20 <= x < 0.00)
+60,SlogP_VSA5,MOE logP VSA Descriptor 5 ( 0.10 <= x < 0.15)
+61,SlogP_VSA6,MOE logP VSA Descriptor 6 ( 0.15 <= x < 0.20)
+62,SlogP_VSA7,MOE logP VSA Descriptor 7 ( 0.20 <= x < 0.25)
+63,SlogP_VSA8,MOE logP VSA Descriptor 8 ( 0.25 <= x < 0.30)
+64,TPSA,total polar surface area
+65,EState_VSA1,EState VSA Descriptor 1 (-inf < x < -0.39)
+66,EState_VSA10,EState VSA Descriptor 10 ( 9.17 <= x < 15.00)
+67,EState_VSA11,EState VSA Descriptor 11 ( 15.00 <= x < inf)
+68,EState_VSA2,EState VSA Descriptor 2 ( -0.39 <= x < 0.29)
+69,EState_VSA3,EState VSA Descriptor 3 ( 0.29 <= x < 0.72)
+70,EState_VSA5,EState VSA Descriptor 5 ( 1.17 <= x < 1.54)
+71,EState_VSA6,EState VSA Descriptor 6 ( 1.54 <= x < 1.81)
+72,EState_VSA7,EState VSA Descriptor 7 ( 1.81 <= x < 2.05)
+73,EState_VSA8,EState VSA Descriptor 8 ( 2.05 <= x < 4.69)
+74,EState_VSA9,EState VSA Descriptor 9 ( 4.69 <= x < 9.17)
+75,VSA_EState1,VSA EState Descriptor 1 (-inf < x < 4.78)
+76,VSA_EState10,VSA EState Descriptor 10 ( 11.00 <= x < inf)
+77,VSA_EState2,VSA EState Descriptor 2 ( 4.78 <= x < 5.00)
+78,VSA_EState3,VSA EState Descriptor 3 ( 5.00 <= x < 5.41)
+79,VSA_EState4,VSA EState Descriptor 4 ( 5.41 <= x < 5.74)
+80,VSA_EState5,VSA EState Descriptor 5 ( 5.74 <= x < 6.00)
+81,VSA_EState6,VSA EState Descriptor 6 ( 6.00 <= x < 6.07)
+82,VSA_EState7,VSA EState Descriptor 7 ( 6.07 <= x < 6.45)
+83,VSA_EState8,VSA EState Descriptor 8 ( 6.45 <= x < 7.00)
+84,VSA_EState9,VSA EState Descriptor 9 ( 7.00 <= x < 11.00)
+85,FractionCSP3,returns the fraction of C atoms that are SP3 hybridized
+86,HeavyAtomCount,Number of heavy atoms a molecule
+87,NHOHCount,Number of NHs or OHs
+88,NOCount,Number of Nitrogens and Oxygens
+89,NumAliphaticCarbocycles,returns the number of aliphatic (containing at least one non-aromatic bond) carbocycles for a molecule
+90,NumAliphaticHeterocycles,returns the number of aliphatic (containing at least one non-aromatic bond) heterocycles for a molecule
+91,NumAliphaticRings,returns the number of aliphatic (containing at least one non-aromatic bond) rings for a molecule
+92,NumAromaticCarbocycles,returns the number of aromatic carbocycles for a molecule
+93,NumAromaticHeterocycles,returns the number of aromatic heterocycles for a molecule
+94,NumAromaticRings,returns the number of aromatic rings for a molecule
+95,NumHAcceptors,Number of Hydrogen Bond Acceptors
+96,NumHDonors,Number of Hydrogen Bond Donors
+97,NumHeteroatoms,Number of Heteroatoms
+98,NumRotatableBonds,Number of Rotatable Bonds
+99,NumSaturatedCarbocycles,returns the number of saturated carbocycles for a molecule
+100,NumSaturatedHeterocycles,returns the number of saturated heterocycles for a molecule
+101,NumSaturatedRings,returns the number of saturated rings for a molecule
+102,RingCount,
+103,MolLogP,Wildman-Crippen LogP value
+104,MolMR,Wildman-Crippen MR value
+105,fr_Al_COO,Number of aliphatic carboxylic acids
+106,fr_Al_OH,Number of aliphatic hydroxyl groups
+107,fr_Al_OH_noTert,Number of aliphatic hydroxyl groups excluding tert-OH
+108,fr_ArN,Number of N functional groups attached to aromatics
+109,fr_Ar_COO,Number of Aromatic carboxylic acide
+110,fr_Ar_N,Number of aromatic nitrogens
+111,fr_Ar_NH,Number of aromatic amines
+112,fr_Ar_OH,Number of aromatic hydroxyl groups
+113,fr_COO,Number of carboxylic acids
+114,fr_COO2,Number of carboxylic acids
+115,fr_C_O,Number of carbonyl O
+116,fr_C_O_noCOO,"Number of carbonyl O, excluding COOH"
+117,fr_C_S,Number of thiocarbonyl
+118,fr_HOCCN,Number of C(OH)CCN-Ctert-alkyl or C(OH)CCNcyclic
+119,fr_Imine,Number of Imines
+120,fr_NH0,Number of Tertiary amines
+121,fr_NH1,Number of Secondary amines
+122,fr_NH2,Number of Primary amines
+123,fr_N_O,Number of hydroxylamine groups
+124,fr_Ndealkylation1,Number of XCCNR groups
+125,fr_Ndealkylation2,"Number of tert-alicyclic amines (no heteroatoms, not quinine-like bridged N)"
+126,fr_Nhpyrrole,Number of H-pyrrole nitrogens
+127,fr_SH,Number of thiol groups
+128,fr_aldehyde,Number of aldehydes
+129,fr_alkyl_carbamate,Number of alkyl carbamates (subject to hydrolysis)
+130,fr_alkyl_halide,Number of alkyl halides
+131,fr_allylic_oxid,Number of allylic oxidation sites excluding steroid dienone
+132,fr_amide,Number of amides
+133,fr_amidine,Number of amidine groups
+134,fr_aniline,Number of anilines
+135,fr_aryl_methyl,Number of aryl methyl sites for hydroxylation
+136,fr_azo,Number of azide groups
+137,fr_barbitur,Number of barbiturate groups
+138,fr_benzene,Number of benzene rings
+139,fr_bicyclic,Bicyclic
+140,fr_diazo,Number of diazo groups
+141,fr_dihydropyridine,Number of dihydropyridines
+142,fr_epoxide,Number of epoxide rings
+143,fr_ester,Number of esters
+144,fr_ether,Number of ether oxygens (including phenoxy)
+145,fr_furan,Number of furan rings
+146,fr_guanido,Number of guanidine groups
+147,fr_halogen,Number of halogens
+148,fr_hdrzine,Number of hydrazine groups
+149,fr_hdrzone,Number of hydrazone groups
+150,fr_imidazole,Number of imidazole rings
+151,fr_imide,Number of imide groups
+152,fr_isocyan,Number of isocyanates
+153,fr_isothiocyan,Number of isothiocyanates
+154,fr_ketone,Number of ketones
+155,fr_ketone_Topliss,"Number of ketones excluding diaryl, a,b-unsat. dienones, heteroatom on Calpha"
+156,fr_lactam,Number of beta lactams
+157,fr_lactone,Number of cyclic esters (lactones)
+158,fr_methoxy,Number of methoxy groups -OCH3
+159,fr_morpholine,Number of morpholine rings
+160,fr_nitrile,Number of nitriles
+161,fr_nitro,Number of nitro groups
+162,fr_nitro_arom,Number of nitro benzene ring substituents
+163,fr_nitro_arom_nonortho,Number of non-ortho nitro benzene ring substituents
+164,fr_nitroso,"Number of nitroso groups, excluding NO2"
+165,fr_oxazole,Number of oxazole rings
+166,fr_oxime,Number of oxime groups
+167,fr_para_hydroxylation,Number of para-hydroxylation sites
+168,fr_phenol,Number of phenols
+169,fr_phenol_noOrthoHbond,Number of phenolic OH excluding ortho intramolecular Hbond substituents
+170,fr_phos_acid,Number of phosphoric acid groups
+171,fr_phos_ester,Number of phosphoric ester groups
+172,fr_piperdine,Number of piperdine rings
+173,fr_piperzine,Number of piperzine rings
+174,fr_priamide,Number of primary amides
+175,fr_pyridine,Number of primary sulfonamides
+176,fr_quatN,Number of quaternary nitrogens
+177,fr_sulfide,Number of thioether
+178,fr_sulfonamd,Number of sulfonamides
+179,fr_sulfone,Number of sulfone groups
+180,fr_term_acetylene,Number of terminal acetylenes
+181,fr_tetrazole,Number of tetrazole rings
+182,fr_thiazole,Number of thiazole rings
+183,fr_thiocyan,Number of thiocyanates
+184,fr_thiophene,Number of thiophene rings
+185,fr_unbrch_alkane,Number of unbranched alkanes of at least 4 members (excludes halogenated alkanes)
+186,fr_urea,Number of urea groups
+187,ABC,atom-bond connectivity index
+188,ABCGG,Graovac-Ghorbani atom-bond connectivity index
+189,nAcid,acidic group count
+190,nBase,basic group count
+191,SpAbs_A,SpAbs of adjacency matrix
+192,SpMax_A,SpMax of adjacency matrix
+193,SpDiam_A,SpDiam of adjacency matrix
+194,SpAD_A,SpAD of adjacency matrix
+195,SpMAD_A,SpMAD of adjacency matrix
+196,LogEE_A,LogEE of adjacency matrix
+197,VE1_A,VE1 of adjacency matrix
+198,VE2_A,VE2 of adjacency matrix
+199,VE3_A,VE3 of adjacency matrix
+200,nAromAtom,aromatic atoms count
+201,nAromBond,aromatic bonds count
+202,nAtom,number of all atoms
+203,nHeavyAtom,number of heavy atoms
+204,nSpiro,number of spiro atoms
+205,nBridgehead,number of bridgehead atoms
+206,nHetero,number of hetero atoms
+207,nH,number of H atoms
+208,nB,number of B atoms
+209,nC,number of C atoms
+210,nN,number of N atoms
+211,nO,number of O atoms
+212,nS,number of S atoms
+213,nP,number of P atoms
+214,nF,number of F atoms
+215,nCl,number of Cl atoms
+216,nBr,number of Br atoms
+217,nI,number of I atoms
+218,nX,number of halogen atoms
+219,ATS0dv,moreau-broto autocorrelation of lag 0 weighted by valence electrons
+220,ATS1dv,moreau-broto autocorrelation of lag 1 weighted by valence electrons
+221,ATS2dv,moreau-broto autocorrelation of lag 2 weighted by valence electrons
+222,ATS3dv,moreau-broto autocorrelation of lag 3 weighted by valence electrons
+223,ATS4dv,moreau-broto autocorrelation of lag 4 weighted by valence electrons
+224,ATS5dv,moreau-broto autocorrelation of lag 5 weighted by valence electrons
+225,ATS6dv,moreau-broto autocorrelation of lag 6 weighted by valence electrons
+226,ATS7dv,moreau-broto autocorrelation of lag 7 weighted by valence electrons
+227,ATS8dv,moreau-broto autocorrelation of lag 8 weighted by valence electrons
+228,ATS0d,moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+229,ATS1d,moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+230,ATS2d,moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+231,ATS3d,moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+232,ATS4d,moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+233,ATS5d,moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+234,ATS6d,moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+235,ATS7d,moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+236,ATS8d,moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+237,ATS0Z,moreau-broto autocorrelation of lag 0 weighted by atomic number
+238,ATS1Z,moreau-broto autocorrelation of lag 1 weighted by atomic number
+239,ATS2Z,moreau-broto autocorrelation of lag 2 weighted by atomic number
+240,ATS3Z,moreau-broto autocorrelation of lag 3 weighted by atomic number
+241,ATS4Z,moreau-broto autocorrelation of lag 4 weighted by atomic number
+242,ATS5Z,moreau-broto autocorrelation of lag 5 weighted by atomic number
+243,ATS6Z,moreau-broto autocorrelation of lag 6 weighted by atomic number
+244,ATS7Z,moreau-broto autocorrelation of lag 7 weighted by atomic number
+245,ATS8Z,moreau-broto autocorrelation of lag 8 weighted by atomic number
+246,AATS0dv,averaged moreau-broto autocorrelation of lag 0 weighted by valence electrons
+247,AATS1dv,averaged moreau-broto autocorrelation of lag 1 weighted by valence electrons
+248,AATS0d,averaged moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+249,AATS1d,averaged moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+250,AATS0Z,averaged moreau-broto autocorrelation of lag 0 weighted by atomic number
+251,AATS1Z,averaged moreau-broto autocorrelation of lag 1 weighted by atomic number
+252,ATSC0dv,centered moreau-broto autocorrelation of lag 0 weighted by valence electrons
+253,ATSC1dv,centered moreau-broto autocorrelation of lag 1 weighted by valence electrons
+254,ATSC2dv,centered moreau-broto autocorrelation of lag 2 weighted by valence electrons
+255,ATSC3dv,centered moreau-broto autocorrelation of lag 3 weighted by valence electrons
+256,ATSC4dv,centered moreau-broto autocorrelation of lag 4 weighted by valence electrons
+257,ATSC5dv,centered moreau-broto autocorrelation of lag 5 weighted by valence electrons
+258,ATSC6dv,centered moreau-broto autocorrelation of lag 6 weighted by valence electrons
+259,ATSC7dv,centered moreau-broto autocorrelation of lag 7 weighted by valence electrons
+260,ATSC8dv,centered moreau-broto autocorrelation of lag 8 weighted by valence electrons
+261,ATSC0d,centered moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+262,ATSC1d,centered moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+263,ATSC2d,centered moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+264,ATSC3d,centered moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+265,ATSC4d,centered moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+266,ATSC5d,centered moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+267,ATSC6d,centered moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+268,ATSC7d,centered moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+269,ATSC8d,centered moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+270,ATSC0Z,centered moreau-broto autocorrelation of lag 0 weighted by atomic number
+271,ATSC1Z,centered moreau-broto autocorrelation of lag 1 weighted by atomic number
+272,ATSC2Z,centered moreau-broto autocorrelation of lag 2 weighted by atomic number
+273,ATSC3Z,centered moreau-broto autocorrelation of lag 3 weighted by atomic number
+274,ATSC4Z,centered moreau-broto autocorrelation of lag 4 weighted by atomic number
+275,ATSC5Z,centered moreau-broto autocorrelation of lag 5 weighted by atomic number
+276,ATSC6Z,centered moreau-broto autocorrelation of lag 6 weighted by atomic number
+277,ATSC7Z,centered moreau-broto autocorrelation of lag 7 weighted by atomic number
+278,ATSC8Z,centered moreau-broto autocorrelation of lag 8 weighted by atomic number
+279,AATSC0dv,averaged and centered moreau-broto autocorrelation of lag 0 weighted by valence electrons
+280,AATSC1dv,averaged and centered moreau-broto autocorrelation of lag 1 weighted by valence electrons
+281,AATSC0d,averaged and centered moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+282,AATSC1d,averaged and centered moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+283,AATSC0Z,averaged and centered moreau-broto autocorrelation of lag 0 weighted by atomic number
+284,AATSC1Z,averaged and centered moreau-broto autocorrelation of lag 1 weighted by atomic number
+285,BCUTdv-1h,first heighest eigenvalue of Burden matrix weighted by valence electrons
+286,BCUTdv-1l,first lowest eigenvalue of Burden matrix weighted by valence electrons
+287,BCUTd-1h,first heighest eigenvalue of Burden matrix weighted by sigma electrons
+288,BCUTd-1l,first lowest eigenvalue of Burden matrix weighted by sigma electrons
+289,BCUTZ-1h,first heighest eigenvalue of Burden matrix weighted by atomic number
+290,BCUTZ-1l,first lowest eigenvalue of Burden matrix weighted by atomic number
+291,nBonds,number of all bonds in non-kekulized structure
+292,nBondsO,number of bonds connecting to heavy atom in non-kekulized structure
+293,nBondsS,number of single bonds in non-kekulized structure
+294,nBondsD,number of double bonds in non-kekulized structure
+295,nBondsT,number of triple bonds in non-kekulized structure
+296,nBondsA,number of aromatic bonds in non-kekulized structure
+297,nBondsM,number of multiple bonds in non-kekulized structure
+298,nBondsKS,number of single bonds in kekulized structure
+299,nBondsKD,number of double bonds in kekulized structure
+300,C1SP1,SP carbon bound to 1 other carbon
+301,C2SP1,SP carbon bound to 2 other carbons
+302,C1SP2,SP2 carbon bound to 1 other carbon
+303,C2SP2,SP2 carbon bound to 2 other carbons
+304,C3SP2,SP2 carbon bound to 3 other carbons
+305,C1SP3,SP3 carbon bound to 1 other carbon
+306,C2SP3,SP3 carbon bound to 2 other carbons
+307,C3SP3,SP3 carbon bound to 3 other carbons
+308,C4SP3,SP3 carbon bound to 4 other carbons
+309,FCSP3,the fraction of C atoms that are SP3 hybridized
+310,Xch-3d,3-ordered Chi chain weighted by sigma electrons
+311,Xch-4d,4-ordered Chi chain weighted by sigma electrons
+312,Xch-5d,5-ordered Chi chain weighted by sigma electrons
+313,Xch-6d,6-ordered Chi chain weighted by sigma electrons
+314,Xch-7d,7-ordered Chi chain weighted by sigma electrons
+315,Xch-3dv,3-ordered Chi chain weighted by valence electrons
+316,Xc-3d,3-ordered Chi cluster weighted by sigma electrons
+317,Xc-4d,4-ordered Chi cluster weighted by sigma electrons
+318,Xc-5d,5-ordered Chi cluster weighted by sigma electrons
+319,Xc-6d,6-ordered Chi cluster weighted by sigma electrons
+320,Xpc-4d,4-ordered Chi path-cluster weighted by sigma electrons
+321,Xpc-5d,5-ordered Chi path-cluster weighted by sigma electrons
+322,Xpc-6d,6-ordered Chi path-cluster weighted by sigma electrons
+323,Xp-0d,0-ordered Chi path weighted by sigma electrons
+324,Xp-1d,1-ordered Chi path weighted by sigma electrons
+325,Xp-2d,2-ordered Chi path weighted by sigma electrons
+326,Xp-3d,3-ordered Chi path weighted by sigma electrons
+327,Xp-4d,4-ordered Chi path weighted by sigma electrons
+328,Xp-5d,5-ordered Chi path weighted by sigma electrons
+329,Xp-6d,6-ordered Chi path weighted by sigma electrons
+330,Xp-7d,7-ordered Chi path weighted by sigma electrons
+331,AXp-0d,0-ordered averaged Chi path weighted by sigma electrons
+332,AXp-1d,1-ordered averaged Chi path weighted by sigma electrons
+333,SZ,sum of constitutional weighted by atomic number
+334,MZ,mean of constitutional weighted by atomic number
+335,SpAbs_D,graph energy from distance matrix
+336,SpMax_D,leading eigenvalue from distance matrix
+337,SpDiam_D,spectral diamiter from distance matrix
+338,SpAD_D,spectral absolute diviation from distance matrix
+339,SpMAD_D,spectral mean absolute diviation from distance matrix
+340,LogEE_D,Estrada-like index from distance matrix
+341,VE1_D,coefficient sum of the last eigenvector from distance matrix
+342,VE2_D,average coefficient of the last eigenvector from distance matrix
+343,VE3_D,logarithmic coefficient sum of the last eigenvector from distance matrix
+344,VR1_D,Randic-like eigenvector-based index from distance matrix
+345,VR2_D,normalized Randic-like eigenvector-based index from distance matrix
+346,VR3_D,logarithmic Randic-like eigenvector-based index from distance matrix
+347,NssBH,number of ssBH
+348,NsssB,number of sssB
+349,NsCH3,number of sCH3
+350,NdCH2,number of dCH2
+351,NssCH2,number of ssCH2
+352,NtCH,number of tCH
+353,NdsCH,number of dsCH
+354,NaaCH,number of aaCH
+355,NsssCH,number of sssCH
+356,NddC,number of ddC
+357,NtsC,number of tsC
+358,NdssC,number of dssC
+359,NaasC,number of aasC
+360,NaaaC,number of aaaC
+361,NssssC,number of ssssC
+362,NsNH3,number of sNH3
+363,NsNH2,number of sNH2
+364,NssNH2,number of ssNH2
+365,NdNH,number of dNH
+366,NssNH,number of ssNH
+367,NaaNH,number of aaNH
+368,NtN,number of tN
+369,NsssNH,number of sssNH
+370,NdsN,number of dsN
+371,NaaN,number of aaN
+372,NsssN,number of sssN
+373,NddsN,number of ddsN
+374,NaasN,number of aasN
+375,NssssN,number of ssssN
+376,NsOH,number of sOH
+377,NdO,number of dO
+378,NssO,number of ssO
+379,NaaO,number of aaO
+380,NsF,number of sF
+381,NsSiH3,number of sSiH3
+382,NssSiH2,number of ssSiH2
+383,NsssSiH,number of sssSiH
+384,NssssSi,number of ssssSi
+385,NsPH2,number of sPH2
+386,NssPH,number of ssPH
+387,NsssP,number of sssP
+388,NdsssP,number of dsssP
+389,NsssssP,number of sssssP
+390,NsSH,number of sSH
+391,NdS,number of dS
+392,NssS,number of ssS
+393,NaaS,number of aaS
+394,NdssS,number of dssS
+395,NddssS,number of ddssS
+396,NsCl,number of sCl
+397,NssssGe,number of ssssGe
+398,NsssAs,number of sssAs
+399,NdSe,number of dSe
+400,NssSe,number of ssSe
+401,NaaSe,number of aaSe
+402,NdssSe,number of dssSe
+403,NddssSe,number of ddssSe
+404,NsBr,number of sBr
+405,NssssSn,number of ssssSn
+406,NsI,number of sI
+407,NssssPb,number of ssssPb
+408,SssBH,sum of ssBH
+409,SsssB,sum of sssB
+410,SsCH3,sum of sCH3
+411,SdCH2,sum of dCH2
+412,SssCH2,sum of ssCH2
+413,StCH,sum of tCH
+414,SdsCH,sum of dsCH
+415,SaaCH,sum of aaCH
+416,SsssCH,sum of sssCH
+417,SddC,sum of ddC
+418,StsC,sum of tsC
+419,SdssC,sum of dssC
+420,SaasC,sum of aasC
+421,SaaaC,sum of aaaC
+422,SssssC,sum of ssssC
+423,SsNH3,sum of sNH3
+424,SsNH2,sum of sNH2
+425,SssNH2,sum of ssNH2
+426,SdNH,sum of dNH
+427,SssNH,sum of ssNH
+428,SaaNH,sum of aaNH
+429,StN,sum of tN
+430,SsssNH,sum of sssNH
+431,SdsN,sum of dsN
+432,SaaN,sum of aaN
+433,SsssN,sum of sssN
+434,SddsN,sum of ddsN
+435,SaasN,sum of aasN
+436,SssssN,sum of ssssN
+437,SsOH,sum of sOH
+438,SdO,sum of dO
+439,SssO,sum of ssO
+440,SaaO,sum of aaO
+441,SsF,sum of sF
+442,SsSiH3,sum of sSiH3
+443,SssSiH2,sum of ssSiH2
+444,SsssSiH,sum of sssSiH
+445,SssssSi,sum of ssssSi
+446,SsPH2,sum of sPH2
+447,SssPH,sum of ssPH
+448,SsssP,sum of sssP
+449,SdsssP,sum of dsssP
+450,SsssssP,sum of sssssP
+451,SsSH,sum of sSH
+452,SdS,sum of dS
+453,SssS,sum of ssS
+454,SaaS,sum of aaS
+455,SdssS,sum of dssS
+456,SddssS,sum of ddssS
+457,SsCl,sum of sCl
+458,SssssGe,sum of ssssGe
+459,SsssAs,sum of sssAs
+460,SdSe,sum of dSe
+461,SssSe,sum of ssSe
+462,SaaSe,sum of aaSe
+463,SdssSe,sum of dssSe
+464,SddssSe,sum of ddssSe
+465,SsBr,sum of sBr
+466,SssssSn,sum of ssssSn
+467,SsI,sum of sI
+468,SssssPb,sum of ssssPb
+469,ECIndex,eccentric connectivity index
+470,ETA_beta,valence electron mobile count
+471,AETA_beta,averaged valence electron mobile count
+472,ETA_beta_s,sigma contribution to valence electron mobile count
+473,AETA_beta_s,averaged sigma contribution to valence electron mobile count
+474,ETA_beta_ns,nonsigma contribution to valence electron mobile count
+475,AETA_beta_ns,averaged nonsigma contribution to valence electron mobile count
+476,ETA_beta_ns_d,delta contribution to valence electron mobile count
+477,AETA_beta_ns_d,averaged delta contribution to valence electron mobile count
+478,ETA_dBeta,ETA delta beta
+479,AETA_dBeta,averaged ETA delta beta
+480,fragCpx,fragment complexity
+481,fMF,molecular framework ratio
+482,nHBAcc,number of hydrogen bond acceptor
+483,nHBDon,number of hydrogen bond donor
+484,IC0,0-ordered neighborhood information content
+485,IC1,1-ordered neighborhood information content
+486,IC2,2-ordered neighborhood information content
+487,IC3,3-ordered neighborhood information content
+488,IC4,4-ordered neighborhood information content
+489,IC5,5-ordered neighborhood information content
+490,TIC0,0-ordered neighborhood total information content
+491,TIC1,1-ordered neighborhood total information content
+492,TIC2,2-ordered neighborhood total information content
+493,TIC3,3-ordered neighborhood total information content
+494,TIC4,4-ordered neighborhood total information content
+495,TIC5,5-ordered neighborhood total information content
+496,SIC0,0-ordered structural information content
+497,SIC1,1-ordered structural information content
+498,SIC2,2-ordered structural information content
+499,SIC3,3-ordered structural information content
+500,SIC4,4-ordered structural information content
+501,SIC5,5-ordered structural information content
+502,CIC0,0-ordered complementary information content
+503,CIC1,1-ordered complementary information content
+504,CIC2,2-ordered complementary information content
+505,CIC3,3-ordered complementary information content
+506,CIC4,4-ordered complementary information content
+507,CIC5,5-ordered complementary information content
+508,MIC0,0-ordered modified information content
+509,MIC1,1-ordered modified information content
+510,MIC2,2-ordered modified information content
+511,MIC3,3-ordered modified information content
+512,MIC4,4-ordered modified information content
+513,MIC5,5-ordered modified information content
+514,ZMIC0,0-ordered Z-modified information content
+515,ZMIC1,1-ordered Z-modified information content
+516,ZMIC2,2-ordered Z-modified information content
+517,ZMIC3,3-ordered Z-modified information content
+518,ZMIC4,4-ordered Z-modified information content
+519,ZMIC5,5-ordered Z-modified information content
+520,Kier1,kappa shape index 1
+521,Lipinski,Lipinski rule of five
+522,GhoseFilter,Ghose filter
+523,FilterItLogS,Filter-it? LogS
+524,MID,molecular ID
+525,AMID,averaged molecular ID
+526,MID_h,molecular ID on h atoms
+527,AMID_h,averaged molecular ID on h atoms
+528,MID_C,molecular ID on C atoms
+529,AMID_C,averaged molecular ID on C atoms
+530,MID_N,molecular ID on N atoms
+531,AMID_N,averaged molecular ID on N atoms
+532,MID_O,molecular ID on O atoms
+533,AMID_O,averaged molecular ID on O atoms
+534,MID_X,molecular ID on halogen atoms
+535,AMID_X,averaged molecular ID on halogen atoms
+536,MPC2,2-ordered path count
+537,MPC3,3-ordered path count
+538,MPC4,4-ordered path count
+539,MPC5,5-ordered path count
+540,MPC6,6-ordered path count
+541,MPC7,7-ordered path count
+542,MPC8,8-ordered path count
+543,MPC9,9-ordered path count
+544,MPC10,10-ordered path count
+545,TMPC10,10-ordered total path count
+546,piPC1,1-ordered pi-path count (log scale)
+547,piPC2,2-ordered pi-path count (log scale)
+548,piPC3,3-ordered pi-path count (log scale)
+549,piPC4,4-ordered pi-path count (log scale)
+550,piPC5,5-ordered pi-path count (log scale)
+551,piPC6,6-ordered pi-path count (log scale)
+552,piPC7,7-ordered pi-path count (log scale)
+553,piPC8,8-ordered pi-path count (log scale)
+554,piPC9,9-ordered pi-path count (log scale)
+555,piPC10,10-ordered pi-path count (log scale)
+556,TpiPC10,10-ordered total pi-path count (log scale)
+557,nRing,ring count
+558,n3Ring,3-membered ring count
+559,n4Ring,4-membered ring count
+560,n5Ring,5-membered ring count
+561,n6Ring,6-membered ring count
+562,n7Ring,7-membered ring count
+563,n8Ring,8-membered ring count
+564,n9Ring,9-membered ring count
+565,n10Ring,10-membered ring count
+566,n11Ring,11-membered ring count
+567,n12Ring,12-membered ring count
+568,nG12Ring,12-or-greater-membered ring count
+569,nHRing,hetero ring count
+570,n3HRing,3-membered hetero ring count
+571,n4HRing,4-membered hetero ring count
+572,n5HRing,5-membered hetero ring count
+573,n6HRing,6-membered hetero ring count
+574,n7HRing,7-membered hetero ring count
+575,n8HRing,8-membered hetero ring count
+576,n9HRing,9-membered hetero ring count
+577,n10HRing,10-membered hetero ring count
+578,n11HRing,11-membered hetero ring count
+579,n12HRing,12-membered hetero ring count
+580,nG12HRing,12-or-greater-membered hetero ring count
+581,naRing,aromatic ring count
+582,n3aRing,3-membered aromatic ring count
+583,n4aRing,4-membered aromatic ring count
+584,n5aRing,5-membered aromatic ring count
+585,n6aRing,6-membered aromatic ring count
+586,n7aRing,7-membered aromatic ring count
+587,n8aRing,8-membered aromatic ring count
+588,n9aRing,9-membered aromatic ring count
+589,n10aRing,10-membered aromatic ring count
+590,n11aRing,11-membered aromatic ring count
+591,n12aRing,12-membered aromatic ring count
+592,nG12aRing,12-or-greater-membered aromatic ring count
+593,naHRing,aromatic hetero ring count
+594,n3aHRing,3-membered aromatic hetero ring count
+595,n4aHRing,4-membered aromatic hetero ring count
+596,n5aHRing,5-membered aromatic hetero ring count
+597,n6aHRing,6-membered aromatic hetero ring count
+598,n7aHRing,7-membered aromatic hetero ring count
+599,n8aHRing,8-membered aromatic hetero ring count
+600,n9aHRing,9-membered aromatic hetero ring count
+601,n10aHRing,10-membered aromatic hetero ring count
+602,n11aHRing,11-membered aromatic hetero ring count
+603,n12aHRing,12-membered aromatic hetero ring count
+604,nG12aHRing,12-or-greater-membered aromatic hetero ring count
+605,nARing,aliphatic ring count
+606,n3ARing,3-membered aliphatic ring count
+607,n4ARing,4-membered aliphatic ring count
+608,n5ARing,5-membered aliphatic ring count
+609,n6ARing,6-membered aliphatic ring count
+610,n7ARing,7-membered aliphatic ring count
+611,n8ARing,8-membered aliphatic ring count
+612,n9ARing,9-membered aliphatic ring count
+613,n10ARing,10-membered aliphatic ring count
+614,n11ARing,11-membered aliphatic ring count
+615,n12ARing,12-membered aliphatic ring count
+616,nG12ARing,12-or-greater-membered aliphatic ring count
+617,nAHRing,aliphatic hetero ring count
+618,n3AHRing,3-membered aliphatic hetero ring count
+619,n4AHRing,4-membered aliphatic hetero ring count
+620,n5AHRing,5-membered aliphatic hetero ring count
+621,n6AHRing,6-membered aliphatic hetero ring count
+622,n7AHRing,7-membered aliphatic hetero ring count
+623,n8AHRing,8-membered aliphatic hetero ring count
+624,n9AHRing,9-membered aliphatic hetero ring count
+625,n10AHRing,10-membered aliphatic hetero ring count
+626,n11AHRing,11-membered aliphatic hetero ring count
+627,n12AHRing,12-membered aliphatic hetero ring count
+628,nG12AHRing,12-or-greater-membered aliphatic hetero ring count
+629,nFRing,fused ring count
+630,n5FRing,5-membered fused ring count
+631,n6FRing,6-membered fused ring count
+632,n7FRing,7-membered fused ring count
+633,n8FRing,8-membered fused ring count
+634,n9FRing,9-membered fused ring count
+635,n10FRing,10-membered fused ring count
+636,n11FRing,11-membered fused ring count
+637,n12FRing,12-membered fused ring count
+638,nG12FRing,12-or-greater-membered fused ring count
+639,nFHRing,fused hetero ring count
+640,n6FHRing,6-membered fused hetero ring count
+641,n7FHRing,7-membered fused hetero ring count
+642,n8FHRing,8-membered fused hetero ring count
+643,n9FHRing,9-membered fused hetero ring count
+644,n10FHRing,10-membered fused hetero ring count
+645,n11FHRing,11-membered fused hetero ring count
+646,n12FHRing,12-membered fused hetero ring count
+647,nG12FHRing,12-or-greater-membered fused hetero ring count
+648,nFaRing,aromatic fused ring count
+649,n6FaRing,6-membered aromatic fused ring count
+650,n7FaRing,7-membered aromatic fused ring count
+651,n8FaRing,8-membered aromatic fused ring count
+652,n9FaRing,9-membered aromatic fused ring count
+653,n10FaRing,10-membered aromatic fused ring count
+654,n11FaRing,11-membered aromatic fused ring count
+655,n12FaRing,12-membered aromatic fused ring count
+656,nG12FaRing,12-or-greater-membered aromatic fused ring count
+657,nFaHRing,aromatic fused hetero ring count
+658,n6FaHRing,6-membered aromatic fused hetero ring count
+659,n7FaHRing,7-membered aromatic fused hetero ring count
+660,n8FaHRing,8-membered aromatic fused hetero ring count
+661,n9FaHRing,9-membered aromatic fused hetero ring count
+662,n10FaHRing,10-membered aromatic fused hetero ring count
+663,n11FaHRing,11-membered aromatic fused hetero ring count
+664,n12FaHRing,12-membered aromatic fused hetero ring count
+665,nG12FaHRing,12-or-greater-membered aromatic fused hetero ring count
+666,nFARing,aliphatic fused ring count
+667,n5FARing,5-membered aliphatic fused ring count
+668,n6FARing,6-membered aliphatic fused ring count
+669,n7FARing,7-membered aliphatic fused ring count
+670,n8FARing,8-membered aliphatic fused ring count
+671,n9FARing,9-membered aliphatic fused ring count
+672,n10FARing,10-membered aliphatic fused ring count
+673,n11FARing,11-membered aliphatic fused ring count
+674,n12FARing,12-membered aliphatic fused ring count
+675,nG12FARing,12-or-greater-membered aliphatic fused ring count
+676,nFAHRing,aliphatic fused hetero ring count
+677,n6FAHRing,6-membered aliphatic fused hetero ring count
+678,n7FAHRing,7-membered aliphatic fused hetero ring count
+679,n8FAHRing,8-membered aliphatic fused hetero ring count
+680,n9FAHRing,9-membered aliphatic fused hetero ring count
+681,n10FAHRing,10-membered aliphatic fused hetero ring count
+682,n11FAHRing,11-membered aliphatic fused hetero ring count
+683,n12FAHRing,12-membered aliphatic fused hetero ring count
+684,nG12FAHRing,12-or-greater-membered aliphatic fused hetero ring count
+685,nRot,rotatable bonds count
+686,RotRatio,rotatable bonds ratio
+687,SLogP,Wildman-Crippen LogP
+688,SMR,Wildman-Crippen MR
+689,TopoPSA(NO),topological polar surface area (use only nitrogen and oxygen)
+690,TopoPSA,topological polar surface area
+691,GGI1,1-ordered raw topological charge
+692,GGI2,2-ordered raw topological charge
+693,GGI3,3-ordered raw topological charge
+694,GGI4,4-ordered raw topological charge
+695,GGI5,5-ordered raw topological charge
+696,GGI6,6-ordered raw topological charge
+697,GGI7,7-ordered raw topological charge
+698,GGI8,8-ordered raw topological charge
+699,GGI9,9-ordered raw topological charge
+700,GGI10,10-ordered raw topological charge
+701,JGI1,1-ordered mean topological charge
+702,JGI2,2-ordered mean topological charge
+703,JGI3,3-ordered mean topological charge
+704,JGI4,4-ordered mean topological charge
+705,JGI5,5-ordered mean topological charge
+706,JGI6,6-ordered mean topological charge
+707,JGI7,7-ordered mean topological charge
+708,JGI8,8-ordered mean topological charge
+709,JGI9,9-ordered mean topological charge
+710,JGI10,10-ordered mean topological charge
+711,JGT10,10-ordered global topological charge
+712,Diameter,topological diameter
+713,Radius,topological radius
+714,TopoShapeIndex,topological shape index
+715,PetitjeanIndex,Petitjean index
+716,VAdjMat,vertex adjacency information
+717,MWC01,walk count (leg-1)
+718,MWC02,walk count (leg-2)
+719,MWC03,walk count (leg-3)
+720,MWC04,walk count (leg-4)
+721,MWC05,walk count (leg-5)
+722,MWC06,walk count (leg-6)
+723,MWC07,walk count (leg-7)
+724,MWC08,walk count (leg-8)
+725,MWC09,walk count (leg-9)
+726,MWC10,walk count (leg-10)
+727,TMWC10,total walk count (leg-10)
+728,SRW02,"walk count (leg-2, only self returning walk)"
+729,SRW03,"walk count (leg-3, only self returning walk)"
+730,SRW04,"walk count (leg-4, only self returning walk)"
+731,SRW05,"walk count (leg-5, only self returning walk)"
+732,SRW06,"walk count (leg-6, only self returning walk)"
+733,SRW07,"walk count (leg-7, only self returning walk)"
+734,SRW08,"walk count (leg-8, only self returning walk)"
+735,SRW09,"walk count (leg-9, only self returning walk)"
+736,SRW10,"walk count (leg-10, only self returning walk)"
+737,TSRW10,"total walk count (leg-10, only self returning walk)"
+738,MW,exact molecular weight
+739,AMW,averaged exact molecular weight
+740,WPath,Wiener index
+741,WPol,Wiener polarity index
+742,Zagreb1,Zagreb index (version 1)
+743,Zagreb2,Zagreb index (version 2)
+744,mZagreb1,modified Zagreb index (version 1)
+745,mZagreb2,modified Zagreb index (version 2)

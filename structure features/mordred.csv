@@ -1,0 +1,1827 @@
+numbers,name,description
+1,ABC,atom-bond connectivity index
+2,ABCGG,Graovac-Ghorbani atom-bond connectivity index
+3,nAcid,acidic group count
+4,nBase,basic group count
+5,SpAbs_A,SpAbs of adjacency matrix
+6,SpMax_A,SpMax of adjacency matrix
+7,SpDiam_A,SpDiam of adjacency matrix
+8,SpAD_A,SpAD of adjacency matrix
+9,SpMAD_A,SpMAD of adjacency matrix
+10,LogEE_A,LogEE of adjacency matrix
+11,VE1_A,VE1 of adjacency matrix
+12,VE2_A,VE2 of adjacency matrix
+13,VE3_A,VE3 of adjacency matrix
+14,VR1_A,VR1 of adjacency matrix
+15,VR2_A,VR2 of adjacency matrix
+16,VR3_A,VR3 of adjacency matrix
+17,nAromAtom,aromatic atoms count
+18,nAromBond,aromatic bonds count
+19,nAtom,number of all atoms
+20,nHeavyAtom,number of heavy atoms
+21,nSpiro,number of spiro atoms
+22,nBridgehead,number of bridgehead atoms
+23,nHetero,number of hetero atoms
+24,nH,number of H atoms
+25,nB,number of B atoms
+26,nC,number of C atoms
+27,nN,number of N atoms
+28,nO,number of O atoms
+29,nS,number of S atoms
+30,nP,number of P atoms
+31,nF,number of F atoms
+32,nCl,number of Cl atoms
+33,nBr,number of Br atoms
+34,nI,number of I atoms
+35,nX,number of halogen atoms
+36,ATS0dv,moreau-broto autocorrelation of lag 0 weighted by valence electrons
+37,ATS1dv,moreau-broto autocorrelation of lag 1 weighted by valence electrons
+38,ATS2dv,moreau-broto autocorrelation of lag 2 weighted by valence electrons
+39,ATS3dv,moreau-broto autocorrelation of lag 3 weighted by valence electrons
+40,ATS4dv,moreau-broto autocorrelation of lag 4 weighted by valence electrons
+41,ATS5dv,moreau-broto autocorrelation of lag 5 weighted by valence electrons
+42,ATS6dv,moreau-broto autocorrelation of lag 6 weighted by valence electrons
+43,ATS7dv,moreau-broto autocorrelation of lag 7 weighted by valence electrons
+44,ATS8dv,moreau-broto autocorrelation of lag 8 weighted by valence electrons
+45,ATS0d,moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+46,ATS1d,moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+47,ATS2d,moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+48,ATS3d,moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+49,ATS4d,moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+50,ATS5d,moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+51,ATS6d,moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+52,ATS7d,moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+53,ATS8d,moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+54,ATS0s,moreau-broto autocorrelation of lag 0 weighted by intrinsic state
+55,ATS1s,moreau-broto autocorrelation of lag 1 weighted by intrinsic state
+56,ATS2s,moreau-broto autocorrelation of lag 2 weighted by intrinsic state
+57,ATS3s,moreau-broto autocorrelation of lag 3 weighted by intrinsic state
+58,ATS4s,moreau-broto autocorrelation of lag 4 weighted by intrinsic state
+59,ATS5s,moreau-broto autocorrelation of lag 5 weighted by intrinsic state
+60,ATS6s,moreau-broto autocorrelation of lag 6 weighted by intrinsic state
+61,ATS7s,moreau-broto autocorrelation of lag 7 weighted by intrinsic state
+62,ATS8s,moreau-broto autocorrelation of lag 8 weighted by intrinsic state
+63,ATS0Z,moreau-broto autocorrelation of lag 0 weighted by atomic number
+64,ATS1Z,moreau-broto autocorrelation of lag 1 weighted by atomic number
+65,ATS2Z,moreau-broto autocorrelation of lag 2 weighted by atomic number
+66,ATS3Z,moreau-broto autocorrelation of lag 3 weighted by atomic number
+67,ATS4Z,moreau-broto autocorrelation of lag 4 weighted by atomic number
+68,ATS5Z,moreau-broto autocorrelation of lag 5 weighted by atomic number
+69,ATS6Z,moreau-broto autocorrelation of lag 6 weighted by atomic number
+70,ATS7Z,moreau-broto autocorrelation of lag 7 weighted by atomic number
+71,ATS8Z,moreau-broto autocorrelation of lag 8 weighted by atomic number
+72,ATS0m,moreau-broto autocorrelation of lag 0 weighted by mass
+73,ATS1m,moreau-broto autocorrelation of lag 1 weighted by mass
+74,ATS2m,moreau-broto autocorrelation of lag 2 weighted by mass
+75,ATS3m,moreau-broto autocorrelation of lag 3 weighted by mass
+76,ATS4m,moreau-broto autocorrelation of lag 4 weighted by mass
+77,ATS5m,moreau-broto autocorrelation of lag 5 weighted by mass
+78,ATS6m,moreau-broto autocorrelation of lag 6 weighted by mass
+79,ATS7m,moreau-broto autocorrelation of lag 7 weighted by mass
+80,ATS8m,moreau-broto autocorrelation of lag 8 weighted by mass
+81,ATS0v,moreau-broto autocorrelation of lag 0 weighted by vdw volume
+82,ATS1v,moreau-broto autocorrelation of lag 1 weighted by vdw volume
+83,ATS2v,moreau-broto autocorrelation of lag 2 weighted by vdw volume
+84,ATS3v,moreau-broto autocorrelation of lag 3 weighted by vdw volume
+85,ATS4v,moreau-broto autocorrelation of lag 4 weighted by vdw volume
+86,ATS5v,moreau-broto autocorrelation of lag 5 weighted by vdw volume
+87,ATS6v,moreau-broto autocorrelation of lag 6 weighted by vdw volume
+88,ATS7v,moreau-broto autocorrelation of lag 7 weighted by vdw volume
+89,ATS8v,moreau-broto autocorrelation of lag 8 weighted by vdw volume
+90,ATS0se,moreau-broto autocorrelation of lag 0 weighted by sanderson EN
+91,ATS1se,moreau-broto autocorrelation of lag 1 weighted by sanderson EN
+92,ATS2se,moreau-broto autocorrelation of lag 2 weighted by sanderson EN
+93,ATS3se,moreau-broto autocorrelation of lag 3 weighted by sanderson EN
+94,ATS4se,moreau-broto autocorrelation of lag 4 weighted by sanderson EN
+95,ATS5se,moreau-broto autocorrelation of lag 5 weighted by sanderson EN
+96,ATS6se,moreau-broto autocorrelation of lag 6 weighted by sanderson EN
+97,ATS7se,moreau-broto autocorrelation of lag 7 weighted by sanderson EN
+98,ATS8se,moreau-broto autocorrelation of lag 8 weighted by sanderson EN
+99,ATS0pe,moreau-broto autocorrelation of lag 0 weighted by pauling EN
+100,ATS1pe,moreau-broto autocorrelation of lag 1 weighted by pauling EN
+101,ATS2pe,moreau-broto autocorrelation of lag 2 weighted by pauling EN
+102,ATS3pe,moreau-broto autocorrelation of lag 3 weighted by pauling EN
+103,ATS4pe,moreau-broto autocorrelation of lag 4 weighted by pauling EN
+104,ATS5pe,moreau-broto autocorrelation of lag 5 weighted by pauling EN
+105,ATS6pe,moreau-broto autocorrelation of lag 6 weighted by pauling EN
+106,ATS7pe,moreau-broto autocorrelation of lag 7 weighted by pauling EN
+107,ATS8pe,moreau-broto autocorrelation of lag 8 weighted by pauling EN
+108,ATS0are,moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
+109,ATS1are,moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
+110,ATS2are,moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
+111,ATS3are,moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
+112,ATS4are,moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
+113,ATS5are,moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
+114,ATS6are,moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
+115,ATS7are,moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
+116,ATS8are,moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
+117,ATS0p,moreau-broto autocorrelation of lag 0 weighted by polarizability
+118,ATS1p,moreau-broto autocorrelation of lag 1 weighted by polarizability
+119,ATS2p,moreau-broto autocorrelation of lag 2 weighted by polarizability
+120,ATS3p,moreau-broto autocorrelation of lag 3 weighted by polarizability
+121,ATS4p,moreau-broto autocorrelation of lag 4 weighted by polarizability
+122,ATS5p,moreau-broto autocorrelation of lag 5 weighted by polarizability
+123,ATS6p,moreau-broto autocorrelation of lag 6 weighted by polarizability
+124,ATS7p,moreau-broto autocorrelation of lag 7 weighted by polarizability
+125,ATS8p,moreau-broto autocorrelation of lag 8 weighted by polarizability
+126,ATS0i,moreau-broto autocorrelation of lag 0 weighted by ionization potential
+127,ATS1i,moreau-broto autocorrelation of lag 1 weighted by ionization potential
+128,ATS2i,moreau-broto autocorrelation of lag 2 weighted by ionization potential
+129,ATS3i,moreau-broto autocorrelation of lag 3 weighted by ionization potential
+130,ATS4i,moreau-broto autocorrelation of lag 4 weighted by ionization potential
+131,ATS5i,moreau-broto autocorrelation of lag 5 weighted by ionization potential
+132,ATS6i,moreau-broto autocorrelation of lag 6 weighted by ionization potential
+133,ATS7i,moreau-broto autocorrelation of lag 7 weighted by ionization potential
+134,ATS8i,moreau-broto autocorrelation of lag 8 weighted by ionization potential
+135,AATS0dv,averaged moreau-broto autocorrelation of lag 0 weighted by valence electrons
+136,AATS1dv,averaged moreau-broto autocorrelation of lag 1 weighted by valence electrons
+137,AATS2dv,averaged moreau-broto autocorrelation of lag 2 weighted by valence electrons
+138,AATS3dv,averaged moreau-broto autocorrelation of lag 3 weighted by valence electrons
+139,AATS4dv,averaged moreau-broto autocorrelation of lag 4 weighted by valence electrons
+140,AATS5dv,averaged moreau-broto autocorrelation of lag 5 weighted by valence electrons
+141,AATS6dv,averaged moreau-broto autocorrelation of lag 6 weighted by valence electrons
+142,AATS7dv,averaged moreau-broto autocorrelation of lag 7 weighted by valence electrons
+143,AATS8dv,averaged moreau-broto autocorrelation of lag 8 weighted by valence electrons
+144,AATS0d,averaged moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+145,AATS1d,averaged moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+146,AATS2d,averaged moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+147,AATS3d,averaged moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+148,AATS4d,averaged moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+149,AATS5d,averaged moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+150,AATS6d,averaged moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+151,AATS7d,averaged moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+152,AATS8d,averaged moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+153,AATS0s,averaged moreau-broto autocorrelation of lag 0 weighted by intrinsic state
+154,AATS1s,averaged moreau-broto autocorrelation of lag 1 weighted by intrinsic state
+155,AATS2s,averaged moreau-broto autocorrelation of lag 2 weighted by intrinsic state
+156,AATS3s,averaged moreau-broto autocorrelation of lag 3 weighted by intrinsic state
+157,AATS4s,averaged moreau-broto autocorrelation of lag 4 weighted by intrinsic state
+158,AATS5s,averaged moreau-broto autocorrelation of lag 5 weighted by intrinsic state
+159,AATS6s,averaged moreau-broto autocorrelation of lag 6 weighted by intrinsic state
+160,AATS7s,averaged moreau-broto autocorrelation of lag 7 weighted by intrinsic state
+161,AATS8s,averaged moreau-broto autocorrelation of lag 8 weighted by intrinsic state
+162,AATS0Z,averaged moreau-broto autocorrelation of lag 0 weighted by atomic number
+163,AATS1Z,averaged moreau-broto autocorrelation of lag 1 weighted by atomic number
+164,AATS2Z,averaged moreau-broto autocorrelation of lag 2 weighted by atomic number
+165,AATS3Z,averaged moreau-broto autocorrelation of lag 3 weighted by atomic number
+166,AATS4Z,averaged moreau-broto autocorrelation of lag 4 weighted by atomic number
+167,AATS5Z,averaged moreau-broto autocorrelation of lag 5 weighted by atomic number
+168,AATS6Z,averaged moreau-broto autocorrelation of lag 6 weighted by atomic number
+169,AATS7Z,averaged moreau-broto autocorrelation of lag 7 weighted by atomic number
+170,AATS8Z,averaged moreau-broto autocorrelation of lag 8 weighted by atomic number
+171,AATS0m,averaged moreau-broto autocorrelation of lag 0 weighted by mass
+172,AATS1m,averaged moreau-broto autocorrelation of lag 1 weighted by mass
+173,AATS2m,averaged moreau-broto autocorrelation of lag 2 weighted by mass
+174,AATS3m,averaged moreau-broto autocorrelation of lag 3 weighted by mass
+175,AATS4m,averaged moreau-broto autocorrelation of lag 4 weighted by mass
+176,AATS5m,averaged moreau-broto autocorrelation of lag 5 weighted by mass
+177,AATS6m,averaged moreau-broto autocorrelation of lag 6 weighted by mass
+178,AATS7m,averaged moreau-broto autocorrelation of lag 7 weighted by mass
+179,AATS8m,averaged moreau-broto autocorrelation of lag 8 weighted by mass
+180,AATS0v,averaged moreau-broto autocorrelation of lag 0 weighted by vdw volume
+181,AATS1v,averaged moreau-broto autocorrelation of lag 1 weighted by vdw volume
+182,AATS2v,averaged moreau-broto autocorrelation of lag 2 weighted by vdw volume
+183,AATS3v,averaged moreau-broto autocorrelation of lag 3 weighted by vdw volume
+184,AATS4v,averaged moreau-broto autocorrelation of lag 4 weighted by vdw volume
+185,AATS5v,averaged moreau-broto autocorrelation of lag 5 weighted by vdw volume
+186,AATS6v,averaged moreau-broto autocorrelation of lag 6 weighted by vdw volume
+187,AATS7v,averaged moreau-broto autocorrelation of lag 7 weighted by vdw volume
+188,AATS8v,averaged moreau-broto autocorrelation of lag 8 weighted by vdw volume
+189,AATS0se,averaged moreau-broto autocorrelation of lag 0 weighted by sanderson EN
+190,AATS1se,averaged moreau-broto autocorrelation of lag 1 weighted by sanderson EN
+191,AATS2se,averaged moreau-broto autocorrelation of lag 2 weighted by sanderson EN
+192,AATS3se,averaged moreau-broto autocorrelation of lag 3 weighted by sanderson EN
+193,AATS4se,averaged moreau-broto autocorrelation of lag 4 weighted by sanderson EN
+194,AATS5se,averaged moreau-broto autocorrelation of lag 5 weighted by sanderson EN
+195,AATS6se,averaged moreau-broto autocorrelation of lag 6 weighted by sanderson EN
+196,AATS7se,averaged moreau-broto autocorrelation of lag 7 weighted by sanderson EN
+197,AATS8se,averaged moreau-broto autocorrelation of lag 8 weighted by sanderson EN
+198,AATS0pe,averaged moreau-broto autocorrelation of lag 0 weighted by pauling EN
+199,AATS1pe,averaged moreau-broto autocorrelation of lag 1 weighted by pauling EN
+200,AATS2pe,averaged moreau-broto autocorrelation of lag 2 weighted by pauling EN
+201,AATS3pe,averaged moreau-broto autocorrelation of lag 3 weighted by pauling EN
+202,AATS4pe,averaged moreau-broto autocorrelation of lag 4 weighted by pauling EN
+203,AATS5pe,averaged moreau-broto autocorrelation of lag 5 weighted by pauling EN
+204,AATS6pe,averaged moreau-broto autocorrelation of lag 6 weighted by pauling EN
+205,AATS7pe,averaged moreau-broto autocorrelation of lag 7 weighted by pauling EN
+206,AATS8pe,averaged moreau-broto autocorrelation of lag 8 weighted by pauling EN
+207,AATS0are,averaged moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
+208,AATS1are,averaged moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
+209,AATS2are,averaged moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
+210,AATS3are,averaged moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
+211,AATS4are,averaged moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
+212,AATS5are,averaged moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
+213,AATS6are,averaged moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
+214,AATS7are,averaged moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
+215,AATS8are,averaged moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
+216,AATS0p,averaged moreau-broto autocorrelation of lag 0 weighted by polarizability
+217,AATS1p,averaged moreau-broto autocorrelation of lag 1 weighted by polarizability
+218,AATS2p,averaged moreau-broto autocorrelation of lag 2 weighted by polarizability
+219,AATS3p,averaged moreau-broto autocorrelation of lag 3 weighted by polarizability
+220,AATS4p,averaged moreau-broto autocorrelation of lag 4 weighted by polarizability
+221,AATS5p,averaged moreau-broto autocorrelation of lag 5 weighted by polarizability
+222,AATS6p,averaged moreau-broto autocorrelation of lag 6 weighted by polarizability
+223,AATS7p,averaged moreau-broto autocorrelation of lag 7 weighted by polarizability
+224,AATS8p,averaged moreau-broto autocorrelation of lag 8 weighted by polarizability
+225,AATS0i,averaged moreau-broto autocorrelation of lag 0 weighted by ionization potential
+226,AATS1i,averaged moreau-broto autocorrelation of lag 1 weighted by ionization potential
+227,AATS2i,averaged moreau-broto autocorrelation of lag 2 weighted by ionization potential
+228,AATS3i,averaged moreau-broto autocorrelation of lag 3 weighted by ionization potential
+229,AATS4i,averaged moreau-broto autocorrelation of lag 4 weighted by ionization potential
+230,AATS5i,averaged moreau-broto autocorrelation of lag 5 weighted by ionization potential
+231,AATS6i,averaged moreau-broto autocorrelation of lag 6 weighted by ionization potential
+232,AATS7i,averaged moreau-broto autocorrelation of lag 7 weighted by ionization potential
+233,AATS8i,averaged moreau-broto autocorrelation of lag 8 weighted by ionization potential
+234,ATSC0c,centered moreau-broto autocorrelation of lag 0 weighted by gasteiger charge
+235,ATSC1c,centered moreau-broto autocorrelation of lag 1 weighted by gasteiger charge
+236,ATSC2c,centered moreau-broto autocorrelation of lag 2 weighted by gasteiger charge
+237,ATSC3c,centered moreau-broto autocorrelation of lag 3 weighted by gasteiger charge
+238,ATSC4c,centered moreau-broto autocorrelation of lag 4 weighted by gasteiger charge
+239,ATSC5c,centered moreau-broto autocorrelation of lag 5 weighted by gasteiger charge
+240,ATSC6c,centered moreau-broto autocorrelation of lag 6 weighted by gasteiger charge
+241,ATSC7c,centered moreau-broto autocorrelation of lag 7 weighted by gasteiger charge
+242,ATSC8c,centered moreau-broto autocorrelation of lag 8 weighted by gasteiger charge
+243,ATSC0dv,centered moreau-broto autocorrelation of lag 0 weighted by valence electrons
+244,ATSC1dv,centered moreau-broto autocorrelation of lag 1 weighted by valence electrons
+245,ATSC2dv,centered moreau-broto autocorrelation of lag 2 weighted by valence electrons
+246,ATSC3dv,centered moreau-broto autocorrelation of lag 3 weighted by valence electrons
+247,ATSC4dv,centered moreau-broto autocorrelation of lag 4 weighted by valence electrons
+248,ATSC5dv,centered moreau-broto autocorrelation of lag 5 weighted by valence electrons
+249,ATSC6dv,centered moreau-broto autocorrelation of lag 6 weighted by valence electrons
+250,ATSC7dv,centered moreau-broto autocorrelation of lag 7 weighted by valence electrons
+251,ATSC8dv,centered moreau-broto autocorrelation of lag 8 weighted by valence electrons
+252,ATSC0d,centered moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+253,ATSC1d,centered moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+254,ATSC2d,centered moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+255,ATSC3d,centered moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+256,ATSC4d,centered moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+257,ATSC5d,centered moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+258,ATSC6d,centered moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+259,ATSC7d,centered moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+260,ATSC8d,centered moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+261,ATSC0s,centered moreau-broto autocorrelation of lag 0 weighted by intrinsic state
+262,ATSC1s,centered moreau-broto autocorrelation of lag 1 weighted by intrinsic state
+263,ATSC2s,centered moreau-broto autocorrelation of lag 2 weighted by intrinsic state
+264,ATSC3s,centered moreau-broto autocorrelation of lag 3 weighted by intrinsic state
+265,ATSC4s,centered moreau-broto autocorrelation of lag 4 weighted by intrinsic state
+266,ATSC5s,centered moreau-broto autocorrelation of lag 5 weighted by intrinsic state
+267,ATSC6s,centered moreau-broto autocorrelation of lag 6 weighted by intrinsic state
+268,ATSC7s,centered moreau-broto autocorrelation of lag 7 weighted by intrinsic state
+269,ATSC8s,centered moreau-broto autocorrelation of lag 8 weighted by intrinsic state
+270,ATSC0Z,centered moreau-broto autocorrelation of lag 0 weighted by atomic number
+271,ATSC1Z,centered moreau-broto autocorrelation of lag 1 weighted by atomic number
+272,ATSC2Z,centered moreau-broto autocorrelation of lag 2 weighted by atomic number
+273,ATSC3Z,centered moreau-broto autocorrelation of lag 3 weighted by atomic number
+274,ATSC4Z,centered moreau-broto autocorrelation of lag 4 weighted by atomic number
+275,ATSC5Z,centered moreau-broto autocorrelation of lag 5 weighted by atomic number
+276,ATSC6Z,centered moreau-broto autocorrelation of lag 6 weighted by atomic number
+277,ATSC7Z,centered moreau-broto autocorrelation of lag 7 weighted by atomic number
+278,ATSC8Z,centered moreau-broto autocorrelation of lag 8 weighted by atomic number
+279,ATSC0m,centered moreau-broto autocorrelation of lag 0 weighted by mass
+280,ATSC1m,centered moreau-broto autocorrelation of lag 1 weighted by mass
+281,ATSC2m,centered moreau-broto autocorrelation of lag 2 weighted by mass
+282,ATSC3m,centered moreau-broto autocorrelation of lag 3 weighted by mass
+283,ATSC4m,centered moreau-broto autocorrelation of lag 4 weighted by mass
+284,ATSC5m,centered moreau-broto autocorrelation of lag 5 weighted by mass
+285,ATSC6m,centered moreau-broto autocorrelation of lag 6 weighted by mass
+286,ATSC7m,centered moreau-broto autocorrelation of lag 7 weighted by mass
+287,ATSC8m,centered moreau-broto autocorrelation of lag 8 weighted by mass
+288,ATSC0v,centered moreau-broto autocorrelation of lag 0 weighted by vdw volume
+289,ATSC1v,centered moreau-broto autocorrelation of lag 1 weighted by vdw volume
+290,ATSC2v,centered moreau-broto autocorrelation of lag 2 weighted by vdw volume
+291,ATSC3v,centered moreau-broto autocorrelation of lag 3 weighted by vdw volume
+292,ATSC4v,centered moreau-broto autocorrelation of lag 4 weighted by vdw volume
+293,ATSC5v,centered moreau-broto autocorrelation of lag 5 weighted by vdw volume
+294,ATSC6v,centered moreau-broto autocorrelation of lag 6 weighted by vdw volume
+295,ATSC7v,centered moreau-broto autocorrelation of lag 7 weighted by vdw volume
+296,ATSC8v,centered moreau-broto autocorrelation of lag 8 weighted by vdw volume
+297,ATSC0se,centered moreau-broto autocorrelation of lag 0 weighted by sanderson EN
+298,ATSC1se,centered moreau-broto autocorrelation of lag 1 weighted by sanderson EN
+299,ATSC2se,centered moreau-broto autocorrelation of lag 2 weighted by sanderson EN
+300,ATSC3se,centered moreau-broto autocorrelation of lag 3 weighted by sanderson EN
+301,ATSC4se,centered moreau-broto autocorrelation of lag 4 weighted by sanderson EN
+302,ATSC5se,centered moreau-broto autocorrelation of lag 5 weighted by sanderson EN
+303,ATSC6se,centered moreau-broto autocorrelation of lag 6 weighted by sanderson EN
+304,ATSC7se,centered moreau-broto autocorrelation of lag 7 weighted by sanderson EN
+305,ATSC8se,centered moreau-broto autocorrelation of lag 8 weighted by sanderson EN
+306,ATSC0pe,centered moreau-broto autocorrelation of lag 0 weighted by pauling EN
+307,ATSC1pe,centered moreau-broto autocorrelation of lag 1 weighted by pauling EN
+308,ATSC2pe,centered moreau-broto autocorrelation of lag 2 weighted by pauling EN
+309,ATSC3pe,centered moreau-broto autocorrelation of lag 3 weighted by pauling EN
+310,ATSC4pe,centered moreau-broto autocorrelation of lag 4 weighted by pauling EN
+311,ATSC5pe,centered moreau-broto autocorrelation of lag 5 weighted by pauling EN
+312,ATSC6pe,centered moreau-broto autocorrelation of lag 6 weighted by pauling EN
+313,ATSC7pe,centered moreau-broto autocorrelation of lag 7 weighted by pauling EN
+314,ATSC8pe,centered moreau-broto autocorrelation of lag 8 weighted by pauling EN
+315,ATSC0are,centered moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
+316,ATSC1are,centered moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
+317,ATSC2are,centered moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
+318,ATSC3are,centered moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
+319,ATSC4are,centered moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
+320,ATSC5are,centered moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
+321,ATSC6are,centered moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
+322,ATSC7are,centered moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
+323,ATSC8are,centered moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
+324,ATSC0p,centered moreau-broto autocorrelation of lag 0 weighted by polarizability
+325,ATSC1p,centered moreau-broto autocorrelation of lag 1 weighted by polarizability
+326,ATSC2p,centered moreau-broto autocorrelation of lag 2 weighted by polarizability
+327,ATSC3p,centered moreau-broto autocorrelation of lag 3 weighted by polarizability
+328,ATSC4p,centered moreau-broto autocorrelation of lag 4 weighted by polarizability
+329,ATSC5p,centered moreau-broto autocorrelation of lag 5 weighted by polarizability
+330,ATSC6p,centered moreau-broto autocorrelation of lag 6 weighted by polarizability
+331,ATSC7p,centered moreau-broto autocorrelation of lag 7 weighted by polarizability
+332,ATSC8p,centered moreau-broto autocorrelation of lag 8 weighted by polarizability
+333,ATSC0i,centered moreau-broto autocorrelation of lag 0 weighted by ionization potential
+334,ATSC1i,centered moreau-broto autocorrelation of lag 1 weighted by ionization potential
+335,ATSC2i,centered moreau-broto autocorrelation of lag 2 weighted by ionization potential
+336,ATSC3i,centered moreau-broto autocorrelation of lag 3 weighted by ionization potential
+337,ATSC4i,centered moreau-broto autocorrelation of lag 4 weighted by ionization potential
+338,ATSC5i,centered moreau-broto autocorrelation of lag 5 weighted by ionization potential
+339,ATSC6i,centered moreau-broto autocorrelation of lag 6 weighted by ionization potential
+340,ATSC7i,centered moreau-broto autocorrelation of lag 7 weighted by ionization potential
+341,ATSC8i,centered moreau-broto autocorrelation of lag 8 weighted by ionization potential
+342,AATSC0c,averaged and centered moreau-broto autocorrelation of lag 0 weighted by gasteiger charge
+343,AATSC1c,averaged and centered moreau-broto autocorrelation of lag 1 weighted by gasteiger charge
+344,AATSC2c,averaged and centered moreau-broto autocorrelation of lag 2 weighted by gasteiger charge
+345,AATSC3c,averaged and centered moreau-broto autocorrelation of lag 3 weighted by gasteiger charge
+346,AATSC4c,averaged and centered moreau-broto autocorrelation of lag 4 weighted by gasteiger charge
+347,AATSC5c,averaged and centered moreau-broto autocorrelation of lag 5 weighted by gasteiger charge
+348,AATSC6c,averaged and centered moreau-broto autocorrelation of lag 6 weighted by gasteiger charge
+349,AATSC7c,averaged and centered moreau-broto autocorrelation of lag 7 weighted by gasteiger charge
+350,AATSC8c,averaged and centered moreau-broto autocorrelation of lag 8 weighted by gasteiger charge
+351,AATSC0dv,averaged and centered moreau-broto autocorrelation of lag 0 weighted by valence electrons
+352,AATSC1dv,averaged and centered moreau-broto autocorrelation of lag 1 weighted by valence electrons
+353,AATSC2dv,averaged and centered moreau-broto autocorrelation of lag 2 weighted by valence electrons
+354,AATSC3dv,averaged and centered moreau-broto autocorrelation of lag 3 weighted by valence electrons
+355,AATSC4dv,averaged and centered moreau-broto autocorrelation of lag 4 weighted by valence electrons
+356,AATSC5dv,averaged and centered moreau-broto autocorrelation of lag 5 weighted by valence electrons
+357,AATSC6dv,averaged and centered moreau-broto autocorrelation of lag 6 weighted by valence electrons
+358,AATSC7dv,averaged and centered moreau-broto autocorrelation of lag 7 weighted by valence electrons
+359,AATSC8dv,averaged and centered moreau-broto autocorrelation of lag 8 weighted by valence electrons
+360,AATSC0d,averaged and centered moreau-broto autocorrelation of lag 0 weighted by sigma electrons
+361,AATSC1d,averaged and centered moreau-broto autocorrelation of lag 1 weighted by sigma electrons
+362,AATSC2d,averaged and centered moreau-broto autocorrelation of lag 2 weighted by sigma electrons
+363,AATSC3d,averaged and centered moreau-broto autocorrelation of lag 3 weighted by sigma electrons
+364,AATSC4d,averaged and centered moreau-broto autocorrelation of lag 4 weighted by sigma electrons
+365,AATSC5d,averaged and centered moreau-broto autocorrelation of lag 5 weighted by sigma electrons
+366,AATSC6d,averaged and centered moreau-broto autocorrelation of lag 6 weighted by sigma electrons
+367,AATSC7d,averaged and centered moreau-broto autocorrelation of lag 7 weighted by sigma electrons
+368,AATSC8d,averaged and centered moreau-broto autocorrelation of lag 8 weighted by sigma electrons
+369,AATSC0s,averaged and centered moreau-broto autocorrelation of lag 0 weighted by intrinsic state
+370,AATSC1s,averaged and centered moreau-broto autocorrelation of lag 1 weighted by intrinsic state
+371,AATSC2s,averaged and centered moreau-broto autocorrelation of lag 2 weighted by intrinsic state
+372,AATSC3s,averaged and centered moreau-broto autocorrelation of lag 3 weighted by intrinsic state
+373,AATSC4s,averaged and centered moreau-broto autocorrelation of lag 4 weighted by intrinsic state
+374,AATSC5s,averaged and centered moreau-broto autocorrelation of lag 5 weighted by intrinsic state
+375,AATSC6s,averaged and centered moreau-broto autocorrelation of lag 6 weighted by intrinsic state
+376,AATSC7s,averaged and centered moreau-broto autocorrelation of lag 7 weighted by intrinsic state
+377,AATSC8s,averaged and centered moreau-broto autocorrelation of lag 8 weighted by intrinsic state
+378,AATSC0Z,averaged and centered moreau-broto autocorrelation of lag 0 weighted by atomic number
+379,AATSC1Z,averaged and centered moreau-broto autocorrelation of lag 1 weighted by atomic number
+380,AATSC2Z,averaged and centered moreau-broto autocorrelation of lag 2 weighted by atomic number
+381,AATSC3Z,averaged and centered moreau-broto autocorrelation of lag 3 weighted by atomic number
+382,AATSC4Z,averaged and centered moreau-broto autocorrelation of lag 4 weighted by atomic number
+383,AATSC5Z,averaged and centered moreau-broto autocorrelation of lag 5 weighted by atomic number
+384,AATSC6Z,averaged and centered moreau-broto autocorrelation of lag 6 weighted by atomic number
+385,AATSC7Z,averaged and centered moreau-broto autocorrelation of lag 7 weighted by atomic number
+386,AATSC8Z,averaged and centered moreau-broto autocorrelation of lag 8 weighted by atomic number
+387,AATSC0m,averaged and centered moreau-broto autocorrelation of lag 0 weighted by mass
+388,AATSC1m,averaged and centered moreau-broto autocorrelation of lag 1 weighted by mass
+389,AATSC2m,averaged and centered moreau-broto autocorrelation of lag 2 weighted by mass
+390,AATSC3m,averaged and centered moreau-broto autocorrelation of lag 3 weighted by mass
+391,AATSC4m,averaged and centered moreau-broto autocorrelation of lag 4 weighted by mass
+392,AATSC5m,averaged and centered moreau-broto autocorrelation of lag 5 weighted by mass
+393,AATSC6m,averaged and centered moreau-broto autocorrelation of lag 6 weighted by mass
+394,AATSC7m,averaged and centered moreau-broto autocorrelation of lag 7 weighted by mass
+395,AATSC8m,averaged and centered moreau-broto autocorrelation of lag 8 weighted by mass
+396,AATSC0v,averaged and centered moreau-broto autocorrelation of lag 0 weighted by vdw volume
+397,AATSC1v,averaged and centered moreau-broto autocorrelation of lag 1 weighted by vdw volume
+398,AATSC2v,averaged and centered moreau-broto autocorrelation of lag 2 weighted by vdw volume
+399,AATSC3v,averaged and centered moreau-broto autocorrelation of lag 3 weighted by vdw volume
+400,AATSC4v,averaged and centered moreau-broto autocorrelation of lag 4 weighted by vdw volume
+401,AATSC5v,averaged and centered moreau-broto autocorrelation of lag 5 weighted by vdw volume
+402,AATSC6v,averaged and centered moreau-broto autocorrelation of lag 6 weighted by vdw volume
+403,AATSC7v,averaged and centered moreau-broto autocorrelation of lag 7 weighted by vdw volume
+404,AATSC8v,averaged and centered moreau-broto autocorrelation of lag 8 weighted by vdw volume
+405,AATSC0se,averaged and centered moreau-broto autocorrelation of lag 0 weighted by sanderson EN
+406,AATSC1se,averaged and centered moreau-broto autocorrelation of lag 1 weighted by sanderson EN
+407,AATSC2se,averaged and centered moreau-broto autocorrelation of lag 2 weighted by sanderson EN
+408,AATSC3se,averaged and centered moreau-broto autocorrelation of lag 3 weighted by sanderson EN
+409,AATSC4se,averaged and centered moreau-broto autocorrelation of lag 4 weighted by sanderson EN
+410,AATSC5se,averaged and centered moreau-broto autocorrelation of lag 5 weighted by sanderson EN
+411,AATSC6se,averaged and centered moreau-broto autocorrelation of lag 6 weighted by sanderson EN
+412,AATSC7se,averaged and centered moreau-broto autocorrelation of lag 7 weighted by sanderson EN
+413,AATSC8se,averaged and centered moreau-broto autocorrelation of lag 8 weighted by sanderson EN
+414,AATSC0pe,averaged and centered moreau-broto autocorrelation of lag 0 weighted by pauling EN
+415,AATSC1pe,averaged and centered moreau-broto autocorrelation of lag 1 weighted by pauling EN
+416,AATSC2pe,averaged and centered moreau-broto autocorrelation of lag 2 weighted by pauling EN
+417,AATSC3pe,averaged and centered moreau-broto autocorrelation of lag 3 weighted by pauling EN
+418,AATSC4pe,averaged and centered moreau-broto autocorrelation of lag 4 weighted by pauling EN
+419,AATSC5pe,averaged and centered moreau-broto autocorrelation of lag 5 weighted by pauling EN
+420,AATSC6pe,averaged and centered moreau-broto autocorrelation of lag 6 weighted by pauling EN
+421,AATSC7pe,averaged and centered moreau-broto autocorrelation of lag 7 weighted by pauling EN
+422,AATSC8pe,averaged and centered moreau-broto autocorrelation of lag 8 weighted by pauling EN
+423,AATSC0are,averaged and centered moreau-broto autocorrelation of lag 0 weighted by allred-rocow EN
+424,AATSC1are,averaged and centered moreau-broto autocorrelation of lag 1 weighted by allred-rocow EN
+425,AATSC2are,averaged and centered moreau-broto autocorrelation of lag 2 weighted by allred-rocow EN
+426,AATSC3are,averaged and centered moreau-broto autocorrelation of lag 3 weighted by allred-rocow EN
+427,AATSC4are,averaged and centered moreau-broto autocorrelation of lag 4 weighted by allred-rocow EN
+428,AATSC5are,averaged and centered moreau-broto autocorrelation of lag 5 weighted by allred-rocow EN
+429,AATSC6are,averaged and centered moreau-broto autocorrelation of lag 6 weighted by allred-rocow EN
+430,AATSC7are,averaged and centered moreau-broto autocorrelation of lag 7 weighted by allred-rocow EN
+431,AATSC8are,averaged and centered moreau-broto autocorrelation of lag 8 weighted by allred-rocow EN
+432,AATSC0p,averaged and centered moreau-broto autocorrelation of lag 0 weighted by polarizability
+433,AATSC1p,averaged and centered moreau-broto autocorrelation of lag 1 weighted by polarizability
+434,AATSC2p,averaged and centered moreau-broto autocorrelation of lag 2 weighted by polarizability
+435,AATSC3p,averaged and centered moreau-broto autocorrelation of lag 3 weighted by polarizability
+436,AATSC4p,averaged and centered moreau-broto autocorrelation of lag 4 weighted by polarizability
+437,AATSC5p,averaged and centered moreau-broto autocorrelation of lag 5 weighted by polarizability
+438,AATSC6p,averaged and centered moreau-broto autocorrelation of lag 6 weighted by polarizability
+439,AATSC7p,averaged and centered moreau-broto autocorrelation of lag 7 weighted by polarizability
+440,AATSC8p,averaged and centered moreau-broto autocorrelation of lag 8 weighted by polarizability
+441,AATSC0i,averaged and centered moreau-broto autocorrelation of lag 0 weighted by ionization potential
+442,AATSC1i,averaged and centered moreau-broto autocorrelation of lag 1 weighted by ionization potential
+443,AATSC2i,averaged and centered moreau-broto autocorrelation of lag 2 weighted by ionization potential
+444,AATSC3i,averaged and centered moreau-broto autocorrelation of lag 3 weighted by ionization potential
+445,AATSC4i,averaged and centered moreau-broto autocorrelation of lag 4 weighted by ionization potential
+446,AATSC5i,averaged and centered moreau-broto autocorrelation of lag 5 weighted by ionization potential
+447,AATSC6i,averaged and centered moreau-broto autocorrelation of lag 6 weighted by ionization potential
+448,AATSC7i,averaged and centered moreau-broto autocorrelation of lag 7 weighted by ionization potential
+449,AATSC8i,averaged and centered moreau-broto autocorrelation of lag 8 weighted by ionization potential
+450,MATS1c,moran coefficient of lag 1 weighted by gasteiger charge
+451,MATS2c,moran coefficient of lag 2 weighted by gasteiger charge
+452,MATS3c,moran coefficient of lag 3 weighted by gasteiger charge
+453,MATS4c,moran coefficient of lag 4 weighted by gasteiger charge
+454,MATS5c,moran coefficient of lag 5 weighted by gasteiger charge
+455,MATS6c,moran coefficient of lag 6 weighted by gasteiger charge
+456,MATS7c,moran coefficient of lag 7 weighted by gasteiger charge
+457,MATS8c,moran coefficient of lag 8 weighted by gasteiger charge
+458,MATS1dv,moran coefficient of lag 1 weighted by valence electrons
+459,MATS2dv,moran coefficient of lag 2 weighted by valence electrons
+460,MATS3dv,moran coefficient of lag 3 weighted by valence electrons
+461,MATS4dv,moran coefficient of lag 4 weighted by valence electrons
+462,MATS5dv,moran coefficient of lag 5 weighted by valence electrons
+463,MATS6dv,moran coefficient of lag 6 weighted by valence electrons
+464,MATS7dv,moran coefficient of lag 7 weighted by valence electrons
+465,MATS8dv,moran coefficient of lag 8 weighted by valence electrons
+466,MATS1d,moran coefficient of lag 1 weighted by sigma electrons
+467,MATS2d,moran coefficient of lag 2 weighted by sigma electrons
+468,MATS3d,moran coefficient of lag 3 weighted by sigma electrons
+469,MATS4d,moran coefficient of lag 4 weighted by sigma electrons
+470,MATS5d,moran coefficient of lag 5 weighted by sigma electrons
+471,MATS6d,moran coefficient of lag 6 weighted by sigma electrons
+472,MATS7d,moran coefficient of lag 7 weighted by sigma electrons
+473,MATS8d,moran coefficient of lag 8 weighted by sigma electrons
+474,MATS1s,moran coefficient of lag 1 weighted by intrinsic state
+475,MATS2s,moran coefficient of lag 2 weighted by intrinsic state
+476,MATS3s,moran coefficient of lag 3 weighted by intrinsic state
+477,MATS4s,moran coefficient of lag 4 weighted by intrinsic state
+478,MATS5s,moran coefficient of lag 5 weighted by intrinsic state
+479,MATS6s,moran coefficient of lag 6 weighted by intrinsic state
+480,MATS7s,moran coefficient of lag 7 weighted by intrinsic state
+481,MATS8s,moran coefficient of lag 8 weighted by intrinsic state
+482,MATS1Z,moran coefficient of lag 1 weighted by atomic number
+483,MATS2Z,moran coefficient of lag 2 weighted by atomic number
+484,MATS3Z,moran coefficient of lag 3 weighted by atomic number
+485,MATS4Z,moran coefficient of lag 4 weighted by atomic number
+486,MATS5Z,moran coefficient of lag 5 weighted by atomic number
+487,MATS6Z,moran coefficient of lag 6 weighted by atomic number
+488,MATS7Z,moran coefficient of lag 7 weighted by atomic number
+489,MATS8Z,moran coefficient of lag 8 weighted by atomic number
+490,MATS1m,moran coefficient of lag 1 weighted by mass
+491,MATS2m,moran coefficient of lag 2 weighted by mass
+492,MATS3m,moran coefficient of lag 3 weighted by mass
+493,MATS4m,moran coefficient of lag 4 weighted by mass
+494,MATS5m,moran coefficient of lag 5 weighted by mass
+495,MATS6m,moran coefficient of lag 6 weighted by mass
+496,MATS7m,moran coefficient of lag 7 weighted by mass
+497,MATS8m,moran coefficient of lag 8 weighted by mass
+498,MATS1v,moran coefficient of lag 1 weighted by vdw volume
+499,MATS2v,moran coefficient of lag 2 weighted by vdw volume
+500,MATS3v,moran coefficient of lag 3 weighted by vdw volume
+501,MATS4v,moran coefficient of lag 4 weighted by vdw volume
+502,MATS5v,moran coefficient of lag 5 weighted by vdw volume
+503,MATS6v,moran coefficient of lag 6 weighted by vdw volume
+504,MATS7v,moran coefficient of lag 7 weighted by vdw volume
+505,MATS8v,moran coefficient of lag 8 weighted by vdw volume
+506,MATS1se,moran coefficient of lag 1 weighted by sanderson EN
+507,MATS2se,moran coefficient of lag 2 weighted by sanderson EN
+508,MATS3se,moran coefficient of lag 3 weighted by sanderson EN
+509,MATS4se,moran coefficient of lag 4 weighted by sanderson EN
+510,MATS5se,moran coefficient of lag 5 weighted by sanderson EN
+511,MATS6se,moran coefficient of lag 6 weighted by sanderson EN
+512,MATS7se,moran coefficient of lag 7 weighted by sanderson EN
+513,MATS8se,moran coefficient of lag 8 weighted by sanderson EN
+514,MATS1pe,moran coefficient of lag 1 weighted by pauling EN
+515,MATS2pe,moran coefficient of lag 2 weighted by pauling EN
+516,MATS3pe,moran coefficient of lag 3 weighted by pauling EN
+517,MATS4pe,moran coefficient of lag 4 weighted by pauling EN
+518,MATS5pe,moran coefficient of lag 5 weighted by pauling EN
+519,MATS6pe,moran coefficient of lag 6 weighted by pauling EN
+520,MATS7pe,moran coefficient of lag 7 weighted by pauling EN
+521,MATS8pe,moran coefficient of lag 8 weighted by pauling EN
+522,MATS1are,moran coefficient of lag 1 weighted by allred-rocow EN
+523,MATS2are,moran coefficient of lag 2 weighted by allred-rocow EN
+524,MATS3are,moran coefficient of lag 3 weighted by allred-rocow EN
+525,MATS4are,moran coefficient of lag 4 weighted by allred-rocow EN
+526,MATS5are,moran coefficient of lag 5 weighted by allred-rocow EN
+527,MATS6are,moran coefficient of lag 6 weighted by allred-rocow EN
+528,MATS7are,moran coefficient of lag 7 weighted by allred-rocow EN
+529,MATS8are,moran coefficient of lag 8 weighted by allred-rocow EN
+530,MATS1p,moran coefficient of lag 1 weighted by polarizability
+531,MATS2p,moran coefficient of lag 2 weighted by polarizability
+532,MATS3p,moran coefficient of lag 3 weighted by polarizability
+533,MATS4p,moran coefficient of lag 4 weighted by polarizability
+534,MATS5p,moran coefficient of lag 5 weighted by polarizability
+535,MATS6p,moran coefficient of lag 6 weighted by polarizability
+536,MATS7p,moran coefficient of lag 7 weighted by polarizability
+537,MATS8p,moran coefficient of lag 8 weighted by polarizability
+538,MATS1i,moran coefficient of lag 1 weighted by ionization potential
+539,MATS2i,moran coefficient of lag 2 weighted by ionization potential
+540,MATS3i,moran coefficient of lag 3 weighted by ionization potential
+541,MATS4i,moran coefficient of lag 4 weighted by ionization potential
+542,MATS5i,moran coefficient of lag 5 weighted by ionization potential
+543,MATS6i,moran coefficient of lag 6 weighted by ionization potential
+544,MATS7i,moran coefficient of lag 7 weighted by ionization potential
+545,MATS8i,moran coefficient of lag 8 weighted by ionization potential
+546,GATS1c,geary coefficient of lag 1 weighted by gasteiger charge
+547,GATS2c,geary coefficient of lag 2 weighted by gasteiger charge
+548,GATS3c,geary coefficient of lag 3 weighted by gasteiger charge
+549,GATS4c,geary coefficient of lag 4 weighted by gasteiger charge
+550,GATS5c,geary coefficient of lag 5 weighted by gasteiger charge
+551,GATS6c,geary coefficient of lag 6 weighted by gasteiger charge
+552,GATS7c,geary coefficient of lag 7 weighted by gasteiger charge
+553,GATS8c,geary coefficient of lag 8 weighted by gasteiger charge
+554,GATS1dv,geary coefficient of lag 1 weighted by valence electrons
+555,GATS2dv,geary coefficient of lag 2 weighted by valence electrons
+556,GATS3dv,geary coefficient of lag 3 weighted by valence electrons
+557,GATS4dv,geary coefficient of lag 4 weighted by valence electrons
+558,GATS5dv,geary coefficient of lag 5 weighted by valence electrons
+559,GATS6dv,geary coefficient of lag 6 weighted by valence electrons
+560,GATS7dv,geary coefficient of lag 7 weighted by valence electrons
+561,GATS8dv,geary coefficient of lag 8 weighted by valence electrons
+562,GATS1d,geary coefficient of lag 1 weighted by sigma electrons
+563,GATS2d,geary coefficient of lag 2 weighted by sigma electrons
+564,GATS3d,geary coefficient of lag 3 weighted by sigma electrons
+565,GATS4d,geary coefficient of lag 4 weighted by sigma electrons
+566,GATS5d,geary coefficient of lag 5 weighted by sigma electrons
+567,GATS6d,geary coefficient of lag 6 weighted by sigma electrons
+568,GATS7d,geary coefficient of lag 7 weighted by sigma electrons
+569,GATS8d,geary coefficient of lag 8 weighted by sigma electrons
+570,GATS1s,geary coefficient of lag 1 weighted by intrinsic state
+571,GATS2s,geary coefficient of lag 2 weighted by intrinsic state
+572,GATS3s,geary coefficient of lag 3 weighted by intrinsic state
+573,GATS4s,geary coefficient of lag 4 weighted by intrinsic state
+574,GATS5s,geary coefficient of lag 5 weighted by intrinsic state
+575,GATS6s,geary coefficient of lag 6 weighted by intrinsic state
+576,GATS7s,geary coefficient of lag 7 weighted by intrinsic state
+577,GATS8s,geary coefficient of lag 8 weighted by intrinsic state
+578,GATS1Z,geary coefficient of lag 1 weighted by atomic number
+579,GATS2Z,geary coefficient of lag 2 weighted by atomic number
+580,GATS3Z,geary coefficient of lag 3 weighted by atomic number
+581,GATS4Z,geary coefficient of lag 4 weighted by atomic number
+582,GATS5Z,geary coefficient of lag 5 weighted by atomic number
+583,GATS6Z,geary coefficient of lag 6 weighted by atomic number
+584,GATS7Z,geary coefficient of lag 7 weighted by atomic number
+585,GATS8Z,geary coefficient of lag 8 weighted by atomic number
+586,GATS1m,geary coefficient of lag 1 weighted by mass
+587,GATS2m,geary coefficient of lag 2 weighted by mass
+588,GATS3m,geary coefficient of lag 3 weighted by mass
+589,GATS4m,geary coefficient of lag 4 weighted by mass
+590,GATS5m,geary coefficient of lag 5 weighted by mass
+591,GATS6m,geary coefficient of lag 6 weighted by mass
+592,GATS7m,geary coefficient of lag 7 weighted by mass
+593,GATS8m,geary coefficient of lag 8 weighted by mass
+594,GATS1v,geary coefficient of lag 1 weighted by vdw volume
+595,GATS2v,geary coefficient of lag 2 weighted by vdw volume
+596,GATS3v,geary coefficient of lag 3 weighted by vdw volume
+597,GATS4v,geary coefficient of lag 4 weighted by vdw volume
+598,GATS5v,geary coefficient of lag 5 weighted by vdw volume
+599,GATS6v,geary coefficient of lag 6 weighted by vdw volume
+600,GATS7v,geary coefficient of lag 7 weighted by vdw volume
+601,GATS8v,geary coefficient of lag 8 weighted by vdw volume
+602,GATS1se,geary coefficient of lag 1 weighted by sanderson EN
+603,GATS2se,geary coefficient of lag 2 weighted by sanderson EN
+604,GATS3se,geary coefficient of lag 3 weighted by sanderson EN
+605,GATS4se,geary coefficient of lag 4 weighted by sanderson EN
+606,GATS5se,geary coefficient of lag 5 weighted by sanderson EN
+607,GATS6se,geary coefficient of lag 6 weighted by sanderson EN
+608,GATS7se,geary coefficient of lag 7 weighted by sanderson EN
+609,GATS8se,geary coefficient of lag 8 weighted by sanderson EN
+610,GATS1pe,geary coefficient of lag 1 weighted by pauling EN
+611,GATS2pe,geary coefficient of lag 2 weighted by pauling EN
+612,GATS3pe,geary coefficient of lag 3 weighted by pauling EN
+613,GATS4pe,geary coefficient of lag 4 weighted by pauling EN
+614,GATS5pe,geary coefficient of lag 5 weighted by pauling EN
+615,GATS6pe,geary coefficient of lag 6 weighted by pauling EN
+616,GATS7pe,geary coefficient of lag 7 weighted by pauling EN
+617,GATS8pe,geary coefficient of lag 8 weighted by pauling EN
+618,GATS1are,geary coefficient of lag 1 weighted by allred-rocow EN
+619,GATS2are,geary coefficient of lag 2 weighted by allred-rocow EN
+620,GATS3are,geary coefficient of lag 3 weighted by allred-rocow EN
+621,GATS4are,geary coefficient of lag 4 weighted by allred-rocow EN
+622,GATS5are,geary coefficient of lag 5 weighted by allred-rocow EN
+623,GATS6are,geary coefficient of lag 6 weighted by allred-rocow EN
+624,GATS7are,geary coefficient of lag 7 weighted by allred-rocow EN
+625,GATS8are,geary coefficient of lag 8 weighted by allred-rocow EN
+626,GATS1p,geary coefficient of lag 1 weighted by polarizability
+627,GATS2p,geary coefficient of lag 2 weighted by polarizability
+628,GATS3p,geary coefficient of lag 3 weighted by polarizability
+629,GATS4p,geary coefficient of lag 4 weighted by polarizability
+630,GATS5p,geary coefficient of lag 5 weighted by polarizability
+631,GATS6p,geary coefficient of lag 6 weighted by polarizability
+632,GATS7p,geary coefficient of lag 7 weighted by polarizability
+633,GATS8p,geary coefficient of lag 8 weighted by polarizability
+634,GATS1i,geary coefficient of lag 1 weighted by ionization potential
+635,GATS2i,geary coefficient of lag 2 weighted by ionization potential
+636,GATS3i,geary coefficient of lag 3 weighted by ionization potential
+637,GATS4i,geary coefficient of lag 4 weighted by ionization potential
+638,GATS5i,geary coefficient of lag 5 weighted by ionization potential
+639,GATS6i,geary coefficient of lag 6 weighted by ionization potential
+640,GATS7i,geary coefficient of lag 7 weighted by ionization potential
+641,GATS8i,geary coefficient of lag 8 weighted by ionization potential
+642,BCUTc-1h,first heighest eigenvalue of Burden matrix weighted by gasteiger charge
+643,BCUTc-1l,first lowest eigenvalue of Burden matrix weighted by gasteiger charge
+644,BCUTdv-1h,first heighest eigenvalue of Burden matrix weighted by valence electrons
+645,BCUTdv-1l,first lowest eigenvalue of Burden matrix weighted by valence electrons
+646,BCUTd-1h,first heighest eigenvalue of Burden matrix weighted by sigma electrons
+647,BCUTd-1l,first lowest eigenvalue of Burden matrix weighted by sigma electrons
+648,BCUTs-1h,first heighest eigenvalue of Burden matrix weighted by intrinsic state
+649,BCUTs-1l,first lowest eigenvalue of Burden matrix weighted by intrinsic state
+650,BCUTZ-1h,first heighest eigenvalue of Burden matrix weighted by atomic number
+651,BCUTZ-1l,first lowest eigenvalue of Burden matrix weighted by atomic number
+652,BCUTm-1h,first heighest eigenvalue of Burden matrix weighted by mass
+653,BCUTm-1l,first lowest eigenvalue of Burden matrix weighted by mass
+654,BCUTv-1h,first heighest eigenvalue of Burden matrix weighted by vdw volume
+655,BCUTv-1l,first lowest eigenvalue of Burden matrix weighted by vdw volume
+656,BCUTse-1h,first heighest eigenvalue of Burden matrix weighted by sanderson EN
+657,BCUTse-1l,first lowest eigenvalue of Burden matrix weighted by sanderson EN
+658,BCUTpe-1h,first heighest eigenvalue of Burden matrix weighted by pauling EN
+659,BCUTpe-1l,first lowest eigenvalue of Burden matrix weighted by pauling EN
+660,BCUTare-1h,first heighest eigenvalue of Burden matrix weighted by allred-rocow EN
+661,BCUTare-1l,first lowest eigenvalue of Burden matrix weighted by allred-rocow EN
+662,BCUTp-1h,first heighest eigenvalue of Burden matrix weighted by polarizability
+663,BCUTp-1l,first lowest eigenvalue of Burden matrix weighted by polarizability
+664,BCUTi-1h,first heighest eigenvalue of Burden matrix weighted by ionization potential
+665,BCUTi-1l,first lowest eigenvalue of Burden matrix weighted by ionization potential
+666,BalabanJ,Balaban¡¯s J index
+667,SpAbs_DzZ,graph energy from Barysz matrix weighted by atomic number
+668,SpMax_DzZ,leading eigenvalue from Barysz matrix weighted by atomic number
+669,SpDiam_DzZ,spectral diamiter from Barysz matrix weighted by atomic number
+670,SpAD_DzZ,spectral absolute diviation from Barysz matrix weighted by atomic number
+671,SpMAD_DzZ,spectral mean absolute diviation from Barysz matrix weighted by atomic number
+672,LogEE_DzZ,Estrada-like index from Barysz matrix weighted by atomic number
+673,SM1_DzZ,spectral moment from Barysz matrix weighted by atomic number
+674,VE1_DzZ,coefficient sum of the last eigenvector from Barysz matrix weighted by atomic number
+675,VE2_DzZ,average coefficient of the last eigenvector from Barysz matrix weighted by atomic number
+676,VE3_DzZ,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by atomic number
+677,VR1_DzZ,Randic-like eigenvector-based index from Barysz matrix weighted by atomic number
+678,VR2_DzZ,normalized Randic-like eigenvector-based index from Barysz matrix weighted by atomic number
+679,VR3_DzZ,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by atomic number
+680,SpAbs_Dzm,graph energy from Barysz matrix weighted by mass
+681,SpMax_Dzm,leading eigenvalue from Barysz matrix weighted by mass
+682,SpDiam_Dzm,spectral diamiter from Barysz matrix weighted by mass
+683,SpAD_Dzm,spectral absolute diviation from Barysz matrix weighted by mass
+684,SpMAD_Dzm,spectral mean absolute diviation from Barysz matrix weighted by mass
+685,LogEE_Dzm,Estrada-like index from Barysz matrix weighted by mass
+686,SM1_Dzm,spectral moment from Barysz matrix weighted by mass
+687,VE1_Dzm,coefficient sum of the last eigenvector from Barysz matrix weighted by mass
+688,VE2_Dzm,average coefficient of the last eigenvector from Barysz matrix weighted by mass
+689,VE3_Dzm,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by mass
+690,VR1_Dzm,Randic-like eigenvector-based index from Barysz matrix weighted by mass
+691,VR2_Dzm,normalized Randic-like eigenvector-based index from Barysz matrix weighted by mass
+692,VR3_Dzm,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by mass
+693,SpAbs_Dzv,graph energy from Barysz matrix weighted by vdw volume
+694,SpMax_Dzv,leading eigenvalue from Barysz matrix weighted by vdw volume
+695,SpDiam_Dzv,spectral diamiter from Barysz matrix weighted by vdw volume
+696,SpAD_Dzv,spectral absolute diviation from Barysz matrix weighted by vdw volume
+697,SpMAD_Dzv,spectral mean absolute diviation from Barysz matrix weighted by vdw volume
+698,LogEE_Dzv,Estrada-like index from Barysz matrix weighted by vdw volume
+699,SM1_Dzv,spectral moment from Barysz matrix weighted by vdw volume
+700,VE1_Dzv,coefficient sum of the last eigenvector from Barysz matrix weighted by vdw volume
+701,VE2_Dzv,average coefficient of the last eigenvector from Barysz matrix weighted by vdw volume
+702,VE3_Dzv,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by vdw volume
+703,VR1_Dzv,Randic-like eigenvector-based index from Barysz matrix weighted by vdw volume
+704,VR2_Dzv,normalized Randic-like eigenvector-based index from Barysz matrix weighted by vdw volume
+705,VR3_Dzv,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by vdw volume
+706,SpAbs_Dzse,graph energy from Barysz matrix weighted by sanderson EN
+707,SpMax_Dzse,leading eigenvalue from Barysz matrix weighted by sanderson EN
+708,SpDiam_Dzse,spectral diamiter from Barysz matrix weighted by sanderson EN
+709,SpAD_Dzse,spectral absolute diviation from Barysz matrix weighted by sanderson EN
+710,SpMAD_Dzse,spectral mean absolute diviation from Barysz matrix weighted by sanderson EN
+711,LogEE_Dzse,Estrada-like index from Barysz matrix weighted by sanderson EN
+712,SM1_Dzse,spectral moment from Barysz matrix weighted by sanderson EN
+713,VE1_Dzse,coefficient sum of the last eigenvector from Barysz matrix weighted by sanderson EN
+714,VE2_Dzse,average coefficient of the last eigenvector from Barysz matrix weighted by sanderson EN
+715,VE3_Dzse,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by sanderson EN
+716,VR1_Dzse,Randic-like eigenvector-based index from Barysz matrix weighted by sanderson EN
+717,VR2_Dzse,normalized Randic-like eigenvector-based index from Barysz matrix weighted by sanderson EN
+718,VR3_Dzse,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by sanderson EN
+719,SpAbs_Dzpe,graph energy from Barysz matrix weighted by pauling EN
+720,SpMax_Dzpe,leading eigenvalue from Barysz matrix weighted by pauling EN
+721,SpDiam_Dzpe,spectral diamiter from Barysz matrix weighted by pauling EN
+722,SpAD_Dzpe,spectral absolute diviation from Barysz matrix weighted by pauling EN
+723,SpMAD_Dzpe,spectral mean absolute diviation from Barysz matrix weighted by pauling EN
+724,LogEE_Dzpe,Estrada-like index from Barysz matrix weighted by pauling EN
+725,SM1_Dzpe,spectral moment from Barysz matrix weighted by pauling EN
+726,VE1_Dzpe,coefficient sum of the last eigenvector from Barysz matrix weighted by pauling EN
+727,VE2_Dzpe,average coefficient of the last eigenvector from Barysz matrix weighted by pauling EN
+728,VE3_Dzpe,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by pauling EN
+729,VR1_Dzpe,Randic-like eigenvector-based index from Barysz matrix weighted by pauling EN
+730,VR2_Dzpe,normalized Randic-like eigenvector-based index from Barysz matrix weighted by pauling EN
+731,VR3_Dzpe,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by pauling EN
+732,SpAbs_Dzare,graph energy from Barysz matrix weighted by allred-rocow EN
+733,SpMax_Dzare,leading eigenvalue from Barysz matrix weighted by allred-rocow EN
+734,SpDiam_Dzare,spectral diamiter from Barysz matrix weighted by allred-rocow EN
+735,SpAD_Dzare,spectral absolute diviation from Barysz matrix weighted by allred-rocow EN
+736,SpMAD_Dzare,spectral mean absolute diviation from Barysz matrix weighted by allred-rocow EN
+737,LogEE_Dzare,Estrada-like index from Barysz matrix weighted by allred-rocow EN
+738,SM1_Dzare,spectral moment from Barysz matrix weighted by allred-rocow EN
+739,VE1_Dzare,coefficient sum of the last eigenvector from Barysz matrix weighted by allred-rocow EN
+740,VE2_Dzare,average coefficient of the last eigenvector from Barysz matrix weighted by allred-rocow EN
+741,VE3_Dzare,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by allred-rocow EN
+742,VR1_Dzare,Randic-like eigenvector-based index from Barysz matrix weighted by allred-rocow EN
+743,VR2_Dzare,normalized Randic-like eigenvector-based index from Barysz matrix weighted by allred-rocow EN
+744,VR3_Dzare,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by allred-rocow EN
+745,SpAbs_Dzp,graph energy from Barysz matrix weighted by polarizability
+746,SpMax_Dzp,leading eigenvalue from Barysz matrix weighted by polarizability
+747,SpDiam_Dzp,spectral diamiter from Barysz matrix weighted by polarizability
+748,SpAD_Dzp,spectral absolute diviation from Barysz matrix weighted by polarizability
+749,SpMAD_Dzp,spectral mean absolute diviation from Barysz matrix weighted by polarizability
+750,LogEE_Dzp,Estrada-like index from Barysz matrix weighted by polarizability
+751,SM1_Dzp,spectral moment from Barysz matrix weighted by polarizability
+752,VE1_Dzp,coefficient sum of the last eigenvector from Barysz matrix weighted by polarizability
+753,VE2_Dzp,average coefficient of the last eigenvector from Barysz matrix weighted by polarizability
+754,VE3_Dzp,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by polarizability
+755,VR1_Dzp,Randic-like eigenvector-based index from Barysz matrix weighted by polarizability
+756,VR2_Dzp,normalized Randic-like eigenvector-based index from Barysz matrix weighted by polarizability
+757,VR3_Dzp,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by polarizability
+758,SpAbs_Dzi,graph energy from Barysz matrix weighted by ionization potential
+759,SpMax_Dzi,leading eigenvalue from Barysz matrix weighted by ionization potential
+760,SpDiam_Dzi,spectral diamiter from Barysz matrix weighted by ionization potential
+761,SpAD_Dzi,spectral absolute diviation from Barysz matrix weighted by ionization potential
+762,SpMAD_Dzi,spectral mean absolute diviation from Barysz matrix weighted by ionization potential
+763,LogEE_Dzi,Estrada-like index from Barysz matrix weighted by ionization potential
+764,SM1_Dzi,spectral moment from Barysz matrix weighted by ionization potential
+765,VE1_Dzi,coefficient sum of the last eigenvector from Barysz matrix weighted by ionization potential
+766,VE2_Dzi,average coefficient of the last eigenvector from Barysz matrix weighted by ionization potential
+767,VE3_Dzi,logarithmic coefficient sum of the last eigenvector from Barysz matrix weighted by ionization potential
+768,VR1_Dzi,Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
+769,VR2_Dzi,normalized Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
+770,VR3_Dzi,logarithmic Randic-like eigenvector-based index from Barysz matrix weighted by ionization potential
+771,BertzCT,Bertz CT
+772,nBonds,number of all bonds in non-kekulized structure
+773,nBondsO,number of bonds connecting to heavy atom in non-kekulized structure
+774,nBondsS,number of single bonds in non-kekulized structure
+775,nBondsD,number of double bonds in non-kekulized structure
+776,nBondsT,number of triple bonds in non-kekulized structure
+777,nBondsA,number of aromatic bonds in non-kekulized structure
+778,nBondsM,number of multiple bonds in non-kekulized structure
+779,nBondsKS,number of single bonds in kekulized structure
+780,nBondsKD,number of double bonds in kekulized structure
+781,PNSA1,partial negative surface area (version 1)
+782,PNSA2,partial negative surface area (version 2)
+783,PNSA3,partial negative surface area (version 3)
+784,PNSA4,partial negative surface area (version 4)
+785,PNSA5,partial negative surface area (version 5)
+786,PPSA1,partial positive surface area (version 1)
+787,PPSA2,partial positive surface area (version 2)
+788,PPSA3,partial positive surface area (version 3)
+789,PPSA4,partial positive surface area (version 4)
+790,PPSA5,partial positive surface area (version 5)
+791,DPSA1,difference in charged partial surface area (version 1)
+792,DPSA2,difference in charged partial surface area (version 2)
+793,DPSA3,difference in charged partial surface area (version 3)
+794,DPSA4,difference in charged partial surface area (version 4)
+795,DPSA5,difference in charged partial surface area (version 5)
+796,FNSA1,fractional charged partial negative surface area (version 1)
+797,FNSA2,fractional charged partial negative surface area (version 2)
+798,FNSA3,fractional charged partial negative surface area (version 3)
+799,FNSA4,fractional charged partial negative surface area (version 4)
+800,FNSA5,fractional charged partial negative surface area (version 5)
+801,FPSA1,fractional charged partial positive surface area (version 1)
+802,FPSA2,fractional charged partial positive surface area (version 2)
+803,FPSA3,fractional charged partial positive surface area (version 3)
+804,FPSA4,fractional charged partial positive surface area (version 4)
+805,FPSA5,fractional charged partial positive surface area (version 5)
+806,WNSA1,surface weighted charged partial negative surface area (version 1)
+807,WNSA2,surface weighted charged partial negative surface area (version 2)
+808,WNSA3,surface weighted charged partial negative surface area (version 3)
+809,WNSA4,surface weighted charged partial negative surface area (version 4)
+810,WNSA5,surface weighted charged partial negative surface area (version 5)
+811,WPSA1,surface weighted charged partial positive surface area (version 1)
+812,WPSA2,surface weighted charged partial positive surface area (version 2)
+813,WPSA3,surface weighted charged partial positive surface area (version 3)
+814,WPSA4,surface weighted charged partial positive surface area (version 4)
+815,WPSA5,surface weighted charged partial positive surface area (version 5)
+816,RNCG,relative negative charge
+817,RPCG,relative positive charge
+818,RNCS,relative negative charge surface area
+819,RPCS,relative positive charge surface area
+820,TASA,total hydrophobic surface area
+821,TPSA,total polar surface area
+822,RASA,relative hydrophobic surface area
+823,RPSA,relative polar surface area
+824,C1SP1,SP carbon bound to 1 other carbon
+825,C2SP1,SP carbon bound to 2 other carbons
+826,C1SP2,SP2 carbon bound to 1 other carbon
+827,C2SP2,SP2 carbon bound to 2 other carbons
+828,C3SP2,SP2 carbon bound to 3 other carbons
+829,C1SP3,SP3 carbon bound to 1 other carbon
+830,C2SP3,SP3 carbon bound to 2 other carbons
+831,C3SP3,SP3 carbon bound to 3 other carbons
+832,C4SP3,SP3 carbon bound to 4 other carbons
+833,HybRatio,hybridization ratio
+834,FCSP3,the fraction of C atoms that are SP3 hybridized
+835,Xch-3d,3-ordered Chi chain weighted by sigma electrons
+836,Xch-4d,4-ordered Chi chain weighted by sigma electrons
+837,Xch-5d,5-ordered Chi chain weighted by sigma electrons
+838,Xch-6d,6-ordered Chi chain weighted by sigma electrons
+839,Xch-7d,7-ordered Chi chain weighted by sigma electrons
+840,Xch-3dv,3-ordered Chi chain weighted by valence electrons
+841,Xch-4dv,4-ordered Chi chain weighted by valence electrons
+842,Xch-5dv,5-ordered Chi chain weighted by valence electrons
+843,Xch-6dv,6-ordered Chi chain weighted by valence electrons
+844,Xch-7dv,7-ordered Chi chain weighted by valence electrons
+845,Xc-3d,3-ordered Chi cluster weighted by sigma electrons
+846,Xc-4d,4-ordered Chi cluster weighted by sigma electrons
+847,Xc-5d,5-ordered Chi cluster weighted by sigma electrons
+848,Xc-6d,6-ordered Chi cluster weighted by sigma electrons
+849,Xc-3dv,3-ordered Chi cluster weighted by valence electrons
+850,Xc-4dv,4-ordered Chi cluster weighted by valence electrons
+851,Xc-5dv,5-ordered Chi cluster weighted by valence electrons
+852,Xc-6dv,6-ordered Chi cluster weighted by valence electrons
+853,Xpc-4d,4-ordered Chi path-cluster weighted by sigma electrons
+854,Xpc-5d,5-ordered Chi path-cluster weighted by sigma electrons
+855,Xpc-6d,6-ordered Chi path-cluster weighted by sigma electrons
+856,Xpc-4dv,4-ordered Chi path-cluster weighted by valence electrons
+857,Xpc-5dv,5-ordered Chi path-cluster weighted by valence electrons
+858,Xpc-6dv,6-ordered Chi path-cluster weighted by valence electrons
+859,Xp-0d,0-ordered Chi path weighted by sigma electrons
+860,Xp-1d,1-ordered Chi path weighted by sigma electrons
+861,Xp-2d,2-ordered Chi path weighted by sigma electrons
+862,Xp-3d,3-ordered Chi path weighted by sigma electrons
+863,Xp-4d,4-ordered Chi path weighted by sigma electrons
+864,Xp-5d,5-ordered Chi path weighted by sigma electrons
+865,Xp-6d,6-ordered Chi path weighted by sigma electrons
+866,Xp-7d,7-ordered Chi path weighted by sigma electrons
+867,AXp-0d,0-ordered averaged Chi path weighted by sigma electrons
+868,AXp-1d,1-ordered averaged Chi path weighted by sigma electrons
+869,AXp-2d,2-ordered averaged Chi path weighted by sigma electrons
+870,AXp-3d,3-ordered averaged Chi path weighted by sigma electrons
+871,AXp-4d,4-ordered averaged Chi path weighted by sigma electrons
+872,AXp-5d,5-ordered averaged Chi path weighted by sigma electrons
+873,AXp-6d,6-ordered averaged Chi path weighted by sigma electrons
+874,AXp-7d,7-ordered averaged Chi path weighted by sigma electrons
+875,Xp-0dv,0-ordered Chi path weighted by valence electrons
+876,Xp-1dv,1-ordered Chi path weighted by valence electrons
+877,Xp-2dv,2-ordered Chi path weighted by valence electrons
+878,Xp-3dv,3-ordered Chi path weighted by valence electrons
+879,Xp-4dv,4-ordered Chi path weighted by valence electrons
+880,Xp-5dv,5-ordered Chi path weighted by valence electrons
+881,Xp-6dv,6-ordered Chi path weighted by valence electrons
+882,Xp-7dv,7-ordered Chi path weighted by valence electrons
+883,AXp-0dv,0-ordered averaged Chi path weighted by valence electrons
+884,AXp-1dv,1-ordered averaged Chi path weighted by valence electrons
+885,AXp-2dv,2-ordered averaged Chi path weighted by valence electrons
+886,AXp-3dv,3-ordered averaged Chi path weighted by valence electrons
+887,AXp-4dv,4-ordered averaged Chi path weighted by valence electrons
+888,AXp-5dv,5-ordered averaged Chi path weighted by valence electrons
+889,AXp-6dv,6-ordered averaged Chi path weighted by valence electrons
+890,AXp-7dv,7-ordered averaged Chi path weighted by valence electrons
+891,SZ,sum of constitutional weighted by atomic number
+892,Sm,sum of constitutional weighted by mass
+893,Sv,sum of constitutional weighted by vdw volume
+894,Sse,sum of constitutional weighted by sanderson EN
+895,Spe,sum of constitutional weighted by pauling EN
+896,Sare,sum of constitutional weighted by allred-rocow EN
+897,Sp,sum of constitutional weighted by polarizability
+898,Si,sum of constitutional weighted by ionization potential
+899,MZ,mean of constitutional weighted by atomic number
+900,Mm,mean of constitutional weighted by mass
+901,Mv,mean of constitutional weighted by vdw volume
+902,Mse,mean of constitutional weighted by sanderson EN
+903,Mpe,mean of constitutional weighted by pauling EN
+904,Mare,mean of constitutional weighted by allred-rocow EN
+905,Mp,mean of constitutional weighted by polarizability
+906,Mi,mean of constitutional weighted by ionization potential
+907,SpAbs_Dt,graph energy from detourn matrix
+908,SpMax_Dt,leading eigenvalue from detourn matrix
+909,SpDiam_Dt,spectral diamiter from detourn matrix
+910,SpAD_Dt,spectral absolute diviation from detourn matrix
+911,SpMAD_Dt,spectral mean absolute diviation from detourn matrix
+912,LogEE_Dt,Estrada-like index from detourn matrix
+913,SM1_Dt,spectral moment from detourn matrix
+914,VE1_Dt,coefficient sum of the last eigenvector from detourn matrix
+915,VE2_Dt,average coefficient of the last eigenvector from detourn matrix
+916,VE3_Dt,logarithmic coefficient sum of the last eigenvector from detourn matrix
+917,VR1_Dt,Randic-like eigenvector-based index from detourn matrix
+918,VR2_Dt,normalized Randic-like eigenvector-based index from detourn matrix
+919,VR3_Dt,logarithmic Randic-like eigenvector-based index from detourn matrix
+920,DetourIndex,detour index
+921,SpAbs_D,graph energy from distance matrix
+922,SpMax_D,leading eigenvalue from distance matrix
+923,SpDiam_D,spectral diamiter from distance matrix
+924,SpAD_D,spectral absolute diviation from distance matrix
+925,SpMAD_D,spectral mean absolute diviation from distance matrix
+926,LogEE_D,Estrada-like index from distance matrix
+927,VE1_D,coefficient sum of the last eigenvector from distance matrix
+928,VE2_D,average coefficient of the last eigenvector from distance matrix
+929,VE3_D,logarithmic coefficient sum of the last eigenvector from distance matrix
+930,VR1_D,Randic-like eigenvector-based index from distance matrix
+931,VR2_D,normalized Randic-like eigenvector-based index from distance matrix
+932,VR3_D,logarithmic Randic-like eigenvector-based index from distance matrix
+933,NsLi,number of sLi
+934,NssBe,number of ssBe
+935,NssssBe,number of ssssBe
+936,NssBH,number of ssBH
+937,NsssB,number of sssB
+938,NssssB,number of ssssB
+939,NsCH3,number of sCH3
+940,NdCH2,number of dCH2
+941,NssCH2,number of ssCH2
+942,NtCH,number of tCH
+943,NdsCH,number of dsCH
+944,NaaCH,number of aaCH
+945,NsssCH,number of sssCH
+946,NddC,number of ddC
+947,NtsC,number of tsC
+948,NdssC,number of dssC
+949,NaasC,number of aasC
+950,NaaaC,number of aaaC
+951,NssssC,number of ssssC
+952,NsNH3,number of sNH3
+953,NsNH2,number of sNH2
+954,NssNH2,number of ssNH2
+955,NdNH,number of dNH
+956,NssNH,number of ssNH
+957,NaaNH,number of aaNH
+958,NtN,number of tN
+959,NsssNH,number of sssNH
+960,NdsN,number of dsN
+961,NaaN,number of aaN
+962,NsssN,number of sssN
+963,NddsN,number of ddsN
+964,NaasN,number of aasN
+965,NssssN,number of ssssN
+966,NsOH,number of sOH
+967,NdO,number of dO
+968,NssO,number of ssO
+969,NaaO,number of aaO
+970,NsF,number of sF
+971,NsSiH3,number of sSiH3
+972,NssSiH2,number of ssSiH2
+973,NsssSiH,number of sssSiH
+974,NssssSi,number of ssssSi
+975,NsPH2,number of sPH2
+976,NssPH,number of ssPH
+977,NsssP,number of sssP
+978,NdsssP,number of dsssP
+979,NsssssP,number of sssssP
+980,NsSH,number of sSH
+981,NdS,number of dS
+982,NssS,number of ssS
+983,NaaS,number of aaS
+984,NdssS,number of dssS
+985,NddssS,number of ddssS
+986,NsCl,number of sCl
+987,NsGeH3,number of sGeH3
+988,NssGeH2,number of ssGeH2
+989,NsssGeH,number of sssGeH
+990,NssssGe,number of ssssGe
+991,NsAsH2,number of sAsH2
+992,NssAsH,number of ssAsH
+993,NsssAs,number of sssAs
+994,NsssdAs,number of sssdAs
+995,NsssssAs,number of sssssAs
+996,NsSeH,number of sSeH
+997,NdSe,number of dSe
+998,NssSe,number of ssSe
+999,NaaSe,number of aaSe
+1000,NdssSe,number of dssSe
+1001,NddssSe,number of ddssSe
+1002,NsBr,number of sBr
+1003,NsSnH3,number of sSnH3
+1004,NssSnH2,number of ssSnH2
+1005,NsssSnH,number of sssSnH
+1006,NssssSn,number of ssssSn
+1007,NsI,number of sI
+1008,NsPbH3,number of sPbH3
+1009,NssPbH2,number of ssPbH2
+1010,NsssPbH,number of sssPbH
+1011,NssssPb,number of ssssPb
+1012,SsLi,sum of sLi
+1013,SssBe,sum of ssBe
+1014,SssssBe,sum of ssssBe
+1015,SssBH,sum of ssBH
+1016,SsssB,sum of sssB
+1017,SssssB,sum of ssssB
+1018,SsCH3,sum of sCH3
+1019,SdCH2,sum of dCH2
+1020,SssCH2,sum of ssCH2
+1021,StCH,sum of tCH
+1022,SdsCH,sum of dsCH
+1023,SaaCH,sum of aaCH
+1024,SsssCH,sum of sssCH
+1025,SddC,sum of ddC
+1026,StsC,sum of tsC
+1027,SdssC,sum of dssC
+1028,SaasC,sum of aasC
+1029,SaaaC,sum of aaaC
+1030,SssssC,sum of ssssC
+1031,SsNH3,sum of sNH3
+1032,SsNH2,sum of sNH2
+1033,SssNH2,sum of ssNH2
+1034,SdNH,sum of dNH
+1035,SssNH,sum of ssNH
+1036,SaaNH,sum of aaNH
+1037,StN,sum of tN
+1038,SsssNH,sum of sssNH
+1039,SdsN,sum of dsN
+1040,SaaN,sum of aaN
+1041,SsssN,sum of sssN
+1042,SddsN,sum of ddsN
+1043,SaasN,sum of aasN
+1044,SssssN,sum of ssssN
+1045,SsOH,sum of sOH
+1046,SdO,sum of dO
+1047,SssO,sum of ssO
+1048,SaaO,sum of aaO
+1049,SsF,sum of sF
+1050,SsSiH3,sum of sSiH3
+1051,SssSiH2,sum of ssSiH2
+1052,SsssSiH,sum of sssSiH
+1053,SssssSi,sum of ssssSi
+1054,SsPH2,sum of sPH2
+1055,SssPH,sum of ssPH
+1056,SsssP,sum of sssP
+1057,SdsssP,sum of dsssP
+1058,SsssssP,sum of sssssP
+1059,SsSH,sum of sSH
+1060,SdS,sum of dS
+1061,SssS,sum of ssS
+1062,SaaS,sum of aaS
+1063,SdssS,sum of dssS
+1064,SddssS,sum of ddssS
+1065,SsCl,sum of sCl
+1066,SsGeH3,sum of sGeH3
+1067,SssGeH2,sum of ssGeH2
+1068,SsssGeH,sum of sssGeH
+1069,SssssGe,sum of ssssGe
+1070,SsAsH2,sum of sAsH2
+1071,SssAsH,sum of ssAsH
+1072,SsssAs,sum of sssAs
+1073,SsssdAs,sum of sssdAs
+1074,SsssssAs,sum of sssssAs
+1075,SsSeH,sum of sSeH
+1076,SdSe,sum of dSe
+1077,SssSe,sum of ssSe
+1078,SaaSe,sum of aaSe
+1079,SdssSe,sum of dssSe
+1080,SddssSe,sum of ddssSe
+1081,SsBr,sum of sBr
+1082,SsSnH3,sum of sSnH3
+1083,SssSnH2,sum of ssSnH2
+1084,SsssSnH,sum of sssSnH
+1085,SssssSn,sum of ssssSn
+1086,SsI,sum of sI
+1087,SsPbH3,sum of sPbH3
+1088,SssPbH2,sum of ssPbH2
+1089,SsssPbH,sum of sssPbH
+1090,SssssPb,sum of ssssPb
+1091,MAXsLi,max of sLi
+1092,MAXssBe,max of ssBe
+1093,MAXssssBe,max of ssssBe
+1094,MAXssBH,max of ssBH
+1095,MAXsssB,max of sssB
+1096,MAXssssB,max of ssssB
+1097,MAXsCH3,max of sCH3
+1098,MAXdCH2,max of dCH2
+1099,MAXssCH2,max of ssCH2
+1100,MAXtCH,max of tCH
+1101,MAXdsCH,max of dsCH
+1102,MAXaaCH,max of aaCH
+1103,MAXsssCH,max of sssCH
+1104,MAXddC,max of ddC
+1105,MAXtsC,max of tsC
+1106,MAXdssC,max of dssC
+1107,MAXaasC,max of aasC
+1108,MAXaaaC,max of aaaC
+1109,MAXssssC,max of ssssC
+1110,MAXsNH3,max of sNH3
+1111,MAXsNH2,max of sNH2
+1112,MAXssNH2,max of ssNH2
+1113,MAXdNH,max of dNH
+1114,MAXssNH,max of ssNH
+1115,MAXaaNH,max of aaNH
+1116,MAXtN,max of tN
+1117,MAXsssNH,max of sssNH
+1118,MAXdsN,max of dsN
+1119,MAXaaN,max of aaN
+1120,MAXsssN,max of sssN
+1121,MAXddsN,max of ddsN
+1122,MAXaasN,max of aasN
+1123,MAXssssN,max of ssssN
+1124,MAXsOH,max of sOH
+1125,MAXdO,max of dO
+1126,MAXssO,max of ssO
+1127,MAXaaO,max of aaO
+1128,MAXsF,max of sF
+1129,MAXsSiH3,max of sSiH3
+1130,MAXssSiH2,max of ssSiH2
+1131,MAXsssSiH,max of sssSiH
+1132,MAXssssSi,max of ssssSi
+1133,MAXsPH2,max of sPH2
+1134,MAXssPH,max of ssPH
+1135,MAXsssP,max of sssP
+1136,MAXdsssP,max of dsssP
+1137,MAXsssssP,max of sssssP
+1138,MAXsSH,max of sSH
+1139,MAXdS,max of dS
+1140,MAXssS,max of ssS
+1141,MAXaaS,max of aaS
+1142,MAXdssS,max of dssS
+1143,MAXddssS,max of ddssS
+1144,MAXsCl,max of sCl
+1145,MAXsGeH3,max of sGeH3
+1146,MAXssGeH2,max of ssGeH2
+1147,MAXsssGeH,max of sssGeH
+1148,MAXssssGe,max of ssssGe
+1149,MAXsAsH2,max of sAsH2
+1150,MAXssAsH,max of ssAsH
+1151,MAXsssAs,max of sssAs
+1152,MAXsssdAs,max of sssdAs
+1153,MAXsssssAs,max of sssssAs
+1154,MAXsSeH,max of sSeH
+1155,MAXdSe,max of dSe
+1156,MAXssSe,max of ssSe
+1157,MAXaaSe,max of aaSe
+1158,MAXdssSe,max of dssSe
+1159,MAXddssSe,max of ddssSe
+1160,MAXsBr,max of sBr
+1161,MAXsSnH3,max of sSnH3
+1162,MAXssSnH2,max of ssSnH2
+1163,MAXsssSnH,max of sssSnH
+1164,MAXssssSn,max of ssssSn
+1165,MAXsI,max of sI
+1166,MAXsPbH3,max of sPbH3
+1167,MAXssPbH2,max of ssPbH2
+1168,MAXsssPbH,max of sssPbH
+1169,MAXssssPb,max of ssssPb
+1170,MINsLi,min of sLi
+1171,MINssBe,min of ssBe
+1172,MINssssBe,min of ssssBe
+1173,MINssBH,min of ssBH
+1174,MINsssB,min of sssB
+1175,MINssssB,min of ssssB
+1176,MINsCH3,min of sCH3
+1177,MINdCH2,min of dCH2
+1178,MINssCH2,min of ssCH2
+1179,MINtCH,min of tCH
+1180,MINdsCH,min of dsCH
+1181,MINaaCH,min of aaCH
+1182,MINsssCH,min of sssCH
+1183,MINddC,min of ddC
+1184,MINtsC,min of tsC
+1185,MINdssC,min of dssC
+1186,MINaasC,min of aasC
+1187,MINaaaC,min of aaaC
+1188,MINssssC,min of ssssC
+1189,MINsNH3,min of sNH3
+1190,MINsNH2,min of sNH2
+1191,MINssNH2,min of ssNH2
+1192,MINdNH,min of dNH
+1193,MINssNH,min of ssNH
+1194,MINaaNH,min of aaNH
+1195,MINtN,min of tN
+1196,MINsssNH,min of sssNH
+1197,MINdsN,min of dsN
+1198,MINaaN,min of aaN
+1199,MINsssN,min of sssN
+1200,MINddsN,min of ddsN
+1201,MINaasN,min of aasN
+1202,MINssssN,min of ssssN
+1203,MINsOH,min of sOH
+1204,MINdO,min of dO
+1205,MINssO,min of ssO
+1206,MINaaO,min of aaO
+1207,MINsF,min of sF
+1208,MINsSiH3,min of sSiH3
+1209,MINssSiH2,min of ssSiH2
+1210,MINsssSiH,min of sssSiH
+1211,MINssssSi,min of ssssSi
+1212,MINsPH2,min of sPH2
+1213,MINssPH,min of ssPH
+1214,MINsssP,min of sssP
+1215,MINdsssP,min of dsssP
+1216,MINsssssP,min of sssssP
+1217,MINsSH,min of sSH
+1218,MINdS,min of dS
+1219,MINssS,min of ssS
+1220,MINaaS,min of aaS
+1221,MINdssS,min of dssS
+1222,MINddssS,min of ddssS
+1223,MINsCl,min of sCl
+1224,MINsGeH3,min of sGeH3
+1225,MINssGeH2,min of ssGeH2
+1226,MINsssGeH,min of sssGeH
+1227,MINssssGe,min of ssssGe
+1228,MINsAsH2,min of sAsH2
+1229,MINssAsH,min of ssAsH
+1230,MINsssAs,min of sssAs
+1231,MINsssdAs,min of sssdAs
+1232,MINsssssAs,min of sssssAs
+1233,MINsSeH,min of sSeH
+1234,MINdSe,min of dSe
+1235,MINssSe,min of ssSe
+1236,MINaaSe,min of aaSe
+1237,MINdssSe,min of dssSe
+1238,MINddssSe,min of ddssSe
+1239,MINsBr,min of sBr
+1240,MINsSnH3,min of sSnH3
+1241,MINssSnH2,min of ssSnH2
+1242,MINsssSnH,min of sssSnH
+1243,MINssssSn,min of ssssSn
+1244,MINsI,min of sI
+1245,MINsPbH3,min of sPbH3
+1246,MINssPbH2,min of ssPbH2
+1247,MINsssPbH,min of sssPbH
+1248,MINssssPb,min of ssssPb
+1249,ECIndex,eccentric connectivity index
+1250,ETA_alpha,ETA core count
+1251,AETA_alpha,averaged ETA core count
+1252,ETA_shape_p,ETA shape index (type: p)
+1253,ETA_shape_y,ETA shape index (type: y)
+1254,ETA_shape_x,ETA shape index (type: x)
+1255,ETA_beta,valence electron mobile count
+1256,AETA_beta,averaged valence electron mobile count
+1257,ETA_beta_s,sigma contribution to valence electron mobile count
+1258,AETA_beta_s,averaged sigma contribution to valence electron mobile count
+1259,ETA_beta_ns,nonsigma contribution to valence electron mobile count
+1260,AETA_beta_ns,averaged nonsigma contribution to valence electron mobile count
+1261,ETA_beta_ns_d,delta contribution to valence electron mobile count
+1262,AETA_beta_ns_d,averaged delta contribution to valence electron mobile count
+1263,ETA_eta,ETA composite index for reference graph
+1264,AETA_eta,averaged ETA composite index for reference graph
+1265,ETA_eta_L,local ETA composite index for reference graph
+1266,AETA_eta_L,averaged local ETA composite index for reference graph
+1267,ETA_eta_R,ETA composite index for reference graph
+1268,AETA_eta_R,averaged ETA composite index for reference graph
+1269,ETA_eta_RL,local ETA composite index for reference graph
+1270,AETA_eta_RL,averaged local ETA composite index for reference graph
+1271,ETA_eta_F,ETA functionality index
+1272,AETA_eta_F,averaged ETA functionality index
+1273,ETA_eta_FL,local ETA functionality index
+1274,AETA_eta_FL,averaged local ETA functionality index
+1275,ETA_eta_B,ETA branching index
+1276,AETA_eta_B,averaged ETA branching index
+1277,ETA_eta_BR,ETA branching index (use ring count)
+1278,AETA_eta_BR,averaged ETA branching index (use ring count)
+1279,ETA_dAlpha_A,ETA delta alpha (type: A)
+1280,ETA_dAlpha_B,ETA delta alpha (type: B)
+1281,ETA_epsilon_1,ETA epsilon (type: 1)
+1282,ETA_epsilon_2,ETA epsilon (type: 2)
+1283,ETA_epsilon_3,ETA epsilon (type: 3)
+1284,ETA_epsilon_4,ETA epsilon (type: 4)
+1285,ETA_epsilon_5,ETA epsilon (type: 5)
+1286,ETA_dEpsilon_A,ETA delta epsilon (type: A)
+1287,ETA_dEpsilon_B,ETA delta epsilon (type: B)
+1288,ETA_dEpsilon_C,ETA delta epsilon (type: C)
+1289,ETA_dEpsilon_D,ETA delta epsilon (type: D)
+1290,ETA_dBeta,ETA delta beta
+1291,AETA_dBeta,averaged ETA delta beta
+1292,ETA_psi_1,ETA psi
+1293,ETA_dPsi_A,ETA delta psi (type: A)
+1294,ETA_dPsi_B,ETA delta psi (type: B)
+1295,fragCpx,fragment complexity
+1296,fMF,molecular framework ratio
+1297,GeomDiameter,geometric diameter
+1298,GeomRadius,geometric radius
+1299,GeomShapeIndex,geometrical shape index
+1300,GeomPetitjeanIndex,geometric Petitjean index
+1301,GRAV,heavy atom gravitational index
+1302,GRAVH,gravitational index
+1303,GRAVp,heavy atom pair gravitational index
+1304,GRAVHp,pair gravitational index
+1305,nHBAcc,number of hydrogen bond acceptor
+1306,nHBDon,number of hydrogen bond donor
+1307,IC0,0-ordered neighborhood information content
+1308,IC1,1-ordered neighborhood information content
+1309,IC2,2-ordered neighborhood information content
+1310,IC3,3-ordered neighborhood information content
+1311,IC4,4-ordered neighborhood information content
+1312,IC5,5-ordered neighborhood information content
+1313,TIC0,0-ordered neighborhood total information content
+1314,TIC1,1-ordered neighborhood total information content
+1315,TIC2,2-ordered neighborhood total information content
+1316,TIC3,3-ordered neighborhood total information content
+1317,TIC4,4-ordered neighborhood total information content
+1318,TIC5,5-ordered neighborhood total information content
+1319,SIC0,0-ordered structural information content
+1320,SIC1,1-ordered structural information content
+1321,SIC2,2-ordered structural information content
+1322,SIC3,3-ordered structural information content
+1323,SIC4,4-ordered structural information content
+1324,SIC5,5-ordered structural information content
+1325,BIC0,0-ordered bonding information content
+1326,BIC1,1-ordered bonding information content
+1327,BIC2,2-ordered bonding information content
+1328,BIC3,3-ordered bonding information content
+1329,BIC4,4-ordered bonding information content
+1330,BIC5,5-ordered bonding information content
+1331,CIC0,0-ordered complementary information content
+1332,CIC1,1-ordered complementary information content
+1333,CIC2,2-ordered complementary information content
+1334,CIC3,3-ordered complementary information content
+1335,CIC4,4-ordered complementary information content
+1336,CIC5,5-ordered complementary information content
+1337,MIC0,0-ordered modified information content
+1338,MIC1,1-ordered modified information content
+1339,MIC2,2-ordered modified information content
+1340,MIC3,3-ordered modified information content
+1341,MIC4,4-ordered modified information content
+1342,MIC5,5-ordered modified information content
+1343,ZMIC0,0-ordered Z-modified information content
+1344,ZMIC1,1-ordered Z-modified information content
+1345,ZMIC2,2-ordered Z-modified information content
+1346,ZMIC3,3-ordered Z-modified information content
+1347,ZMIC4,4-ordered Z-modified information content
+1348,ZMIC5,5-ordered Z-modified information content
+1349,Kier1,kappa shape index 1
+1350,Kier2,kappa shape index 2
+1351,Kier3,kappa shape index 3
+1352,Lipinski,Lipinski rule of five
+1353,GhoseFilter,Ghose filter
+1354,FilterItLogS,Filter-it? LogS
+1355,VMcGowan,McGowan volume
+1356,Mor01,3D-MoRSE (distance = 1)
+1357,Mor02,3D-MoRSE (distance = 2)
+1358,Mor03,3D-MoRSE (distance = 3)
+1359,Mor04,3D-MoRSE (distance = 4)
+1360,Mor05,3D-MoRSE (distance = 5)
+1361,Mor06,3D-MoRSE (distance = 6)
+1362,Mor07,3D-MoRSE (distance = 7)
+1363,Mor08,3D-MoRSE (distance = 8)
+1364,Mor09,3D-MoRSE (distance = 9)
+1365,Mor10,3D-MoRSE (distance = 10)
+1366,Mor11,3D-MoRSE (distance = 11)
+1367,Mor12,3D-MoRSE (distance = 12)
+1368,Mor13,3D-MoRSE (distance = 13)
+1369,Mor14,3D-MoRSE (distance = 14)
+1370,Mor15,3D-MoRSE (distance = 15)
+1371,Mor16,3D-MoRSE (distance = 16)
+1372,Mor17,3D-MoRSE (distance = 17)
+1373,Mor18,3D-MoRSE (distance = 18)
+1374,Mor19,3D-MoRSE (distance = 19)
+1375,Mor20,3D-MoRSE (distance = 20)
+1376,Mor21,3D-MoRSE (distance = 21)
+1377,Mor22,3D-MoRSE (distance = 22)
+1378,Mor23,3D-MoRSE (distance = 23)
+1379,Mor24,3D-MoRSE (distance = 24)
+1380,Mor25,3D-MoRSE (distance = 25)
+1381,Mor26,3D-MoRSE (distance = 26)
+1382,Mor27,3D-MoRSE (distance = 27)
+1383,Mor28,3D-MoRSE (distance = 28)
+1384,Mor29,3D-MoRSE (distance = 29)
+1385,Mor30,3D-MoRSE (distance = 30)
+1386,Mor31,3D-MoRSE (distance = 31)
+1387,Mor32,3D-MoRSE (distance = 32)
+1388,Mor01m,3D-MoRSE weighted by mass (distance = 1)
+1389,Mor02m,3D-MoRSE weighted by mass (distance = 2)
+1390,Mor03m,3D-MoRSE weighted by mass (distance = 3)
+1391,Mor04m,3D-MoRSE weighted by mass (distance = 4)
+1392,Mor05m,3D-MoRSE weighted by mass (distance = 5)
+1393,Mor06m,3D-MoRSE weighted by mass (distance = 6)
+1394,Mor07m,3D-MoRSE weighted by mass (distance = 7)
+1395,Mor08m,3D-MoRSE weighted by mass (distance = 8)
+1396,Mor09m,3D-MoRSE weighted by mass (distance = 9)
+1397,Mor10m,3D-MoRSE weighted by mass (distance = 10)
+1398,Mor11m,3D-MoRSE weighted by mass (distance = 11)
+1399,Mor12m,3D-MoRSE weighted by mass (distance = 12)
+1400,Mor13m,3D-MoRSE weighted by mass (distance = 13)
+1401,Mor14m,3D-MoRSE weighted by mass (distance = 14)
+1402,Mor15m,3D-MoRSE weighted by mass (distance = 15)
+1403,Mor16m,3D-MoRSE weighted by mass (distance = 16)
+1404,Mor17m,3D-MoRSE weighted by mass (distance = 17)
+1405,Mor18m,3D-MoRSE weighted by mass (distance = 18)
+1406,Mor19m,3D-MoRSE weighted by mass (distance = 19)
+1407,Mor20m,3D-MoRSE weighted by mass (distance = 20)
+1408,Mor21m,3D-MoRSE weighted by mass (distance = 21)
+1409,Mor22m,3D-MoRSE weighted by mass (distance = 22)
+1410,Mor23m,3D-MoRSE weighted by mass (distance = 23)
+1411,Mor24m,3D-MoRSE weighted by mass (distance = 24)
+1412,Mor25m,3D-MoRSE weighted by mass (distance = 25)
+1413,Mor26m,3D-MoRSE weighted by mass (distance = 26)
+1414,Mor27m,3D-MoRSE weighted by mass (distance = 27)
+1415,Mor28m,3D-MoRSE weighted by mass (distance = 28)
+1416,Mor29m,3D-MoRSE weighted by mass (distance = 29)
+1417,Mor30m,3D-MoRSE weighted by mass (distance = 30)
+1418,Mor31m,3D-MoRSE weighted by mass (distance = 31)
+1419,Mor32m,3D-MoRSE weighted by mass (distance = 32)
+1420,Mor01v,3D-MoRSE weighted by vdw volume (distance = 1)
+1421,Mor02v,3D-MoRSE weighted by vdw volume (distance = 2)
+1422,Mor03v,3D-MoRSE weighted by vdw volume (distance = 3)
+1423,Mor04v,3D-MoRSE weighted by vdw volume (distance = 4)
+1424,Mor05v,3D-MoRSE weighted by vdw volume (distance = 5)
+1425,Mor06v,3D-MoRSE weighted by vdw volume (distance = 6)
+1426,Mor07v,3D-MoRSE weighted by vdw volume (distance = 7)
+1427,Mor08v,3D-MoRSE weighted by vdw volume (distance = 8)
+1428,Mor09v,3D-MoRSE weighted by vdw volume (distance = 9)
+1429,Mor10v,3D-MoRSE weighted by vdw volume (distance = 10)
+1430,Mor11v,3D-MoRSE weighted by vdw volume (distance = 11)
+1431,Mor12v,3D-MoRSE weighted by vdw volume (distance = 12)
+1432,Mor13v,3D-MoRSE weighted by vdw volume (distance = 13)
+1433,Mor14v,3D-MoRSE weighted by vdw volume (distance = 14)
+1434,Mor15v,3D-MoRSE weighted by vdw volume (distance = 15)
+1435,Mor16v,3D-MoRSE weighted by vdw volume (distance = 16)
+1436,Mor17v,3D-MoRSE weighted by vdw volume (distance = 17)
+1437,Mor18v,3D-MoRSE weighted by vdw volume (distance = 18)
+1438,Mor19v,3D-MoRSE weighted by vdw volume (distance = 19)
+1439,Mor20v,3D-MoRSE weighted by vdw volume (distance = 20)
+1440,Mor21v,3D-MoRSE weighted by vdw volume (distance = 21)
+1441,Mor22v,3D-MoRSE weighted by vdw volume (distance = 22)
+1442,Mor23v,3D-MoRSE weighted by vdw volume (distance = 23)
+1443,Mor24v,3D-MoRSE weighted by vdw volume (distance = 24)
+1444,Mor25v,3D-MoRSE weighted by vdw volume (distance = 25)
+1445,Mor26v,3D-MoRSE weighted by vdw volume (distance = 26)
+1446,Mor27v,3D-MoRSE weighted by vdw volume (distance = 27)
+1447,Mor28v,3D-MoRSE weighted by vdw volume (distance = 28)
+1448,Mor29v,3D-MoRSE weighted by vdw volume (distance = 29)
+1449,Mor30v,3D-MoRSE weighted by vdw volume (distance = 30)
+1450,Mor31v,3D-MoRSE weighted by vdw volume (distance = 31)
+1451,Mor32v,3D-MoRSE weighted by vdw volume (distance = 32)
+1452,Mor01se,3D-MoRSE weighted by sanderson EN (distance = 1)
+1453,Mor02se,3D-MoRSE weighted by sanderson EN (distance = 2)
+1454,Mor03se,3D-MoRSE weighted by sanderson EN (distance = 3)
+1455,Mor04se,3D-MoRSE weighted by sanderson EN (distance = 4)
+1456,Mor05se,3D-MoRSE weighted by sanderson EN (distance = 5)
+1457,Mor06se,3D-MoRSE weighted by sanderson EN (distance = 6)
+1458,Mor07se,3D-MoRSE weighted by sanderson EN (distance = 7)
+1459,Mor08se,3D-MoRSE weighted by sanderson EN (distance = 8)
+1460,Mor09se,3D-MoRSE weighted by sanderson EN (distance = 9)
+1461,Mor10se,3D-MoRSE weighted by sanderson EN (distance = 10)
+1462,Mor11se,3D-MoRSE weighted by sanderson EN (distance = 11)
+1463,Mor12se,3D-MoRSE weighted by sanderson EN (distance = 12)
+1464,Mor13se,3D-MoRSE weighted by sanderson EN (distance = 13)
+1465,Mor14se,3D-MoRSE weighted by sanderson EN (distance = 14)
+1466,Mor15se,3D-MoRSE weighted by sanderson EN (distance = 15)
+1467,Mor16se,3D-MoRSE weighted by sanderson EN (distance = 16)
+1468,Mor17se,3D-MoRSE weighted by sanderson EN (distance = 17)
+1469,Mor18se,3D-MoRSE weighted by sanderson EN (distance = 18)
+1470,Mor19se,3D-MoRSE weighted by sanderson EN (distance = 19)
+1471,Mor20se,3D-MoRSE weighted by sanderson EN (distance = 20)
+1472,Mor21se,3D-MoRSE weighted by sanderson EN (distance = 21)
+1473,Mor22se,3D-MoRSE weighted by sanderson EN (distance = 22)
+1474,Mor23se,3D-MoRSE weighted by sanderson EN (distance = 23)
+1475,Mor24se,3D-MoRSE weighted by sanderson EN (distance = 24)
+1476,Mor25se,3D-MoRSE weighted by sanderson EN (distance = 25)
+1477,Mor26se,3D-MoRSE weighted by sanderson EN (distance = 26)
+1478,Mor27se,3D-MoRSE weighted by sanderson EN (distance = 27)
+1479,Mor28se,3D-MoRSE weighted by sanderson EN (distance = 28)
+1480,Mor29se,3D-MoRSE weighted by sanderson EN (distance = 29)
+1481,Mor30se,3D-MoRSE weighted by sanderson EN (distance = 30)
+1482,Mor31se,3D-MoRSE weighted by sanderson EN (distance = 31)
+1483,Mor32se,3D-MoRSE weighted by sanderson EN (distance = 32)
+1484,Mor01p,3D-MoRSE weighted by polarizability (distance = 1)
+1485,Mor02p,3D-MoRSE weighted by polarizability (distance = 2)
+1486,Mor03p,3D-MoRSE weighted by polarizability (distance = 3)
+1487,Mor04p,3D-MoRSE weighted by polarizability (distance = 4)
+1488,Mor05p,3D-MoRSE weighted by polarizability (distance = 5)
+1489,Mor06p,3D-MoRSE weighted by polarizability (distance = 6)
+1490,Mor07p,3D-MoRSE weighted by polarizability (distance = 7)
+1491,Mor08p,3D-MoRSE weighted by polarizability (distance = 8)
+1492,Mor09p,3D-MoRSE weighted by polarizability (distance = 9)
+1493,Mor10p,3D-MoRSE weighted by polarizability (distance = 10)
+1494,Mor11p,3D-MoRSE weighted by polarizability (distance = 11)
+1495,Mor12p,3D-MoRSE weighted by polarizability (distance = 12)
+1496,Mor13p,3D-MoRSE weighted by polarizability (distance = 13)
+1497,Mor14p,3D-MoRSE weighted by polarizability (distance = 14)
+1498,Mor15p,3D-MoRSE weighted by polarizability (distance = 15)
+1499,Mor16p,3D-MoRSE weighted by polarizability (distance = 16)
+1500,Mor17p,3D-MoRSE weighted by polarizability (distance = 17)
+1501,Mor18p,3D-MoRSE weighted by polarizability (distance = 18)
+1502,Mor19p,3D-MoRSE weighted by polarizability (distance = 19)
+1503,Mor20p,3D-MoRSE weighted by polarizability (distance = 20)
+1504,Mor21p,3D-MoRSE weighted by polarizability (distance = 21)
+1505,Mor22p,3D-MoRSE weighted by polarizability (distance = 22)
+1506,Mor23p,3D-MoRSE weighted by polarizability (distance = 23)
+1507,Mor24p,3D-MoRSE weighted by polarizability (distance = 24)
+1508,Mor25p,3D-MoRSE weighted by polarizability (distance = 25)
+1509,Mor26p,3D-MoRSE weighted by polarizability (distance = 26)
+1510,Mor27p,3D-MoRSE weighted by polarizability (distance = 27)
+1511,Mor28p,3D-MoRSE weighted by polarizability (distance = 28)
+1512,Mor29p,3D-MoRSE weighted by polarizability (distance = 29)
+1513,Mor30p,3D-MoRSE weighted by polarizability (distance = 30)
+1514,Mor31p,3D-MoRSE weighted by polarizability (distance = 31)
+1515,Mor32p,3D-MoRSE weighted by polarizability (distance = 32)
+1516,LabuteASA,Labute¡¯s Approximate Surface Area
+1517,PEOE_VSA1,MOE Charge VSA Descriptor 1 (-inf < x < -0.30)
+1518,PEOE_VSA2,MOE Charge VSA Descriptor 2 (-0.30 <= x < -0.25)
+1519,PEOE_VSA3,MOE Charge VSA Descriptor 3 (-0.25 <= x < -0.20)
+1520,PEOE_VSA4,MOE Charge VSA Descriptor 4 (-0.20 <= x < -0.15)
+1521,PEOE_VSA5,MOE Charge VSA Descriptor 5 (-0.15 <= x < -0.10)
+1522,PEOE_VSA6,MOE Charge VSA Descriptor 6 (-0.10 <= x < -0.05)
+1523,PEOE_VSA7,MOE Charge VSA Descriptor 7 (-0.05 <= x < 0.00)
+1524,PEOE_VSA8,MOE Charge VSA Descriptor 8 ( 0.00 <= x < 0.05)
+1525,PEOE_VSA9,MOE Charge VSA Descriptor 9 ( 0.05 <= x < 0.10)
+1526,PEOE_VSA10,MOE Charge VSA Descriptor 10 ( 0.10 <= x < 0.15)
+1527,PEOE_VSA11,MOE Charge VSA Descriptor 11 ( 0.15 <= x < 0.20)
+1528,PEOE_VSA12,MOE Charge VSA Descriptor 12 ( 0.20 <= x < 0.25)
+1529,PEOE_VSA13,MOE Charge VSA Descriptor 13 ( 0.25 <= x < 0.30)
+1530,SMR_VSA1,MOE MR VSA Descriptor 1 (-inf < x < 1.29)
+1531,SMR_VSA2,MOE MR VSA Descriptor 2 ( 1.29 <= x < 1.82)
+1532,SMR_VSA3,MOE MR VSA Descriptor 3 ( 1.82 <= x < 2.24)
+1533,SMR_VSA4,MOE MR VSA Descriptor 4 ( 2.24 <= x < 2.45)
+1534,SMR_VSA5,MOE MR VSA Descriptor 5 ( 2.45 <= x < 2.75)
+1535,SMR_VSA6,MOE MR VSA Descriptor 6 ( 2.75 <= x < 3.05)
+1536,SMR_VSA7,MOE MR VSA Descriptor 7 ( 3.05 <= x < 3.63)
+1537,SMR_VSA8,MOE MR VSA Descriptor 8 ( 3.63 <= x < 3.80)
+1538,SMR_VSA9,MOE MR VSA Descriptor 9 ( 3.80 <= x < 4.00)
+1539,SlogP_VSA1,MOE logP VSA Descriptor 1 (-inf < x < -0.40)
+1540,SlogP_VSA2,MOE logP VSA Descriptor 2 (-0.40 <= x < -0.20)
+1541,SlogP_VSA3,MOE logP VSA Descriptor 3 (-0.20 <= x < 0.00)
+1542,SlogP_VSA4,MOE logP VSA Descriptor 4 ( 0.00 <= x < 0.10)
+1543,SlogP_VSA5,MOE logP VSA Descriptor 5 ( 0.10 <= x < 0.15)
+1544,SlogP_VSA6,MOE logP VSA Descriptor 6 ( 0.15 <= x < 0.20)
+1545,SlogP_VSA7,MOE logP VSA Descriptor 7 ( 0.20 <= x < 0.25)
+1546,SlogP_VSA8,MOE logP VSA Descriptor 8 ( 0.25 <= x < 0.30)
+1547,SlogP_VSA9,MOE logP VSA Descriptor 9 ( 0.30 <= x < 0.40)
+1548,SlogP_VSA10,MOE logP VSA Descriptor 10 ( 0.40 <= x < 0.50)
+1549,SlogP_VSA11,MOE logP VSA Descriptor 11 ( 0.50 <= x < 0.60)
+1550,EState_VSA1,EState VSA Descriptor 1 (-inf < x < -0.39)
+1551,EState_VSA2,EState VSA Descriptor 2 ( -0.39 <= x < 0.29)
+1552,EState_VSA3,EState VSA Descriptor 3 ( 0.29 <= x < 0.72)
+1553,EState_VSA4,EState VSA Descriptor 4 ( 0.72 <= x < 1.17)
+1554,EState_VSA5,EState VSA Descriptor 5 ( 1.17 <= x < 1.54)
+1555,EState_VSA6,EState VSA Descriptor 6 ( 1.54 <= x < 1.81)
+1556,EState_VSA7,EState VSA Descriptor 7 ( 1.81 <= x < 2.05)
+1557,EState_VSA8,EState VSA Descriptor 8 ( 2.05 <= x < 4.69)
+1558,EState_VSA9,EState VSA Descriptor 9 ( 4.69 <= x < 9.17)
+1559,EState_VSA10,EState VSA Descriptor 10 ( 9.17 <= x < 15.00)
+1560,VSA_EState1,VSA EState Descriptor 1 (-inf < x < 4.78)
+1561,VSA_EState2,VSA EState Descriptor 2 ( 4.78 <= x < 5.00)
+1562,VSA_EState3,VSA EState Descriptor 3 ( 5.00 <= x < 5.41)
+1563,VSA_EState4,VSA EState Descriptor 4 ( 5.41 <= x < 5.74)
+1564,VSA_EState5,VSA EState Descriptor 5 ( 5.74 <= x < 6.00)
+1565,VSA_EState6,VSA EState Descriptor 6 ( 6.00 <= x < 6.07)
+1566,VSA_EState7,VSA EState Descriptor 7 ( 6.07 <= x < 6.45)
+1567,VSA_EState8,VSA EState Descriptor 8 ( 6.45 <= x < 7.00)
+1568,VSA_EState9,VSA EState Descriptor 9 ( 7.00 <= x < 11.00)
+1569,MDEC-11,molecular distance edge between primary C and primary C
+1570,MDEC-12,molecular distance edge between primary C and secondary C
+1571,MDEC-13,molecular distance edge between primary C and tertiary C
+1572,MDEC-14,molecular distance edge between primary C and quaternary C
+1573,MDEC-22,molecular distance edge between secondary C and secondary C
+1574,MDEC-23,molecular distance edge between secondary C and tertiary C
+1575,MDEC-24,molecular distance edge between secondary C and quaternary C
+1576,MDEC-33,molecular distance edge between tertiary C and tertiary C
+1577,MDEC-34,molecular distance edge between tertiary C and quaternary C
+1578,MDEC-44,molecular distance edge between quaternary C and quaternary C
+1579,MDEO-11,molecular distance edge between primary O and primary O
+1580,MDEO-12,molecular distance edge between primary O and secondary O
+1581,MDEO-22,molecular distance edge between secondary O and secondary O
+1582,MDEN-11,molecular distance edge between primary N and primary N
+1583,MDEN-12,molecular distance edge between primary N and secondary N
+1584,MDEN-13,molecular distance edge between primary N and tertiary N
+1585,MDEN-22,molecular distance edge between secondary N and secondary N
+1586,MDEN-23,molecular distance edge between secondary N and tertiary N
+1587,MDEN-33,molecular distance edge between tertiary N and tertiary N
+1588,MID,molecular ID
+1589,AMID,averaged molecular ID
+1590,MID_h,molecular ID on h atoms
+1591,AMID_h,averaged molecular ID on h atoms
+1592,MID_C,molecular ID on C atoms
+1593,AMID_C,averaged molecular ID on C atoms
+1594,MID_N,molecular ID on N atoms
+1595,AMID_N,averaged molecular ID on N atoms
+1596,MID_O,molecular ID on O atoms
+1597,AMID_O,averaged molecular ID on O atoms
+1598,MID_X,molecular ID on halogen atoms
+1599,AMID_X,averaged molecular ID on halogen atoms
+1600,MOMI-X,moment of inertia (axis = X)
+1601,MOMI-Y,moment of inertia (axis = Y)
+1602,MOMI-Z,moment of inertia (axis = Z)
+1603,PBF,PBF
+1604,MPC2,2-ordered path count
+1605,MPC3,3-ordered path count
+1606,MPC4,4-ordered path count
+1607,MPC5,5-ordered path count
+1608,MPC6,6-ordered path count
+1609,MPC7,7-ordered path count
+1610,MPC8,8-ordered path count
+1611,MPC9,9-ordered path count
+1612,MPC10,10-ordered path count
+1613,TMPC10,10-ordered total path count
+1614,piPC1,1-ordered pi-path count (log scale)
+1615,piPC2,2-ordered pi-path count (log scale)
+1616,piPC3,3-ordered pi-path count (log scale)
+1617,piPC4,4-ordered pi-path count (log scale)
+1618,piPC5,5-ordered pi-path count (log scale)
+1619,piPC6,6-ordered pi-path count (log scale)
+1620,piPC7,7-ordered pi-path count (log scale)
+1621,piPC8,8-ordered pi-path count (log scale)
+1622,piPC9,9-ordered pi-path count (log scale)
+1623,piPC10,10-ordered pi-path count (log scale)
+1624,TpiPC10,10-ordered total pi-path count (log scale)
+1625,apol,atomic polarizability
+1626,bpol,bond polarizability
+1627,nRing,ring count
+1628,n3Ring,3-membered ring count
+1629,n4Ring,4-membered ring count
+1630,n5Ring,5-membered ring count
+1631,n6Ring,6-membered ring count
+1632,n7Ring,7-membered ring count
+1633,n8Ring,8-membered ring count
+1634,n9Ring,9-membered ring count
+1635,n10Ring,10-membered ring count
+1636,n11Ring,11-membered ring count
+1637,n12Ring,12-membered ring count
+1638,nG12Ring,12-or-greater-membered ring count
+1639,nHRing,hetero ring count
+1640,n3HRing,3-membered hetero ring count
+1641,n4HRing,4-membered hetero ring count
+1642,n5HRing,5-membered hetero ring count
+1643,n6HRing,6-membered hetero ring count
+1644,n7HRing,7-membered hetero ring count
+1645,n8HRing,8-membered hetero ring count
+1646,n9HRing,9-membered hetero ring count
+1647,n10HRing,10-membered hetero ring count
+1648,n11HRing,11-membered hetero ring count
+1649,n12HRing,12-membered hetero ring count
+1650,nG12HRing,12-or-greater-membered hetero ring count
+1651,naRing,aromatic ring count
+1652,n3aRing,3-membered aromatic ring count
+1653,n4aRing,4-membered aromatic ring count
+1654,n5aRing,5-membered aromatic ring count
+1655,n6aRing,6-membered aromatic ring count
+1656,n7aRing,7-membered aromatic ring count
+1657,n8aRing,8-membered aromatic ring count
+1658,n9aRing,9-membered aromatic ring count
+1659,n10aRing,10-membered aromatic ring count
+1660,n11aRing,11-membered aromatic ring count
+1661,n12aRing,12-membered aromatic ring count
+1662,nG12aRing,12-or-greater-membered aromatic ring count
+1663,naHRing,aromatic hetero ring count
+1664,n3aHRing,3-membered aromatic hetero ring count
+1665,n4aHRing,4-membered aromatic hetero ring count
+1666,n5aHRing,5-membered aromatic hetero ring count
+1667,n6aHRing,6-membered aromatic hetero ring count
+1668,n7aHRing,7-membered aromatic hetero ring count
+1669,n8aHRing,8-membered aromatic hetero ring count
+1670,n9aHRing,9-membered aromatic hetero ring count
+1671,n10aHRing,10-membered aromatic hetero ring count
+1672,n11aHRing,11-membered aromatic hetero ring count
+1673,n12aHRing,12-membered aromatic hetero ring count
+1674,nG12aHRing,12-or-greater-membered aromatic hetero ring count
+1675,nARing,aliphatic ring count
+1676,n3ARing,3-membered aliphatic ring count
+1677,n4ARing,4-membered aliphatic ring count
+1678,n5ARing,5-membered aliphatic ring count
+1679,n6ARing,6-membered aliphatic ring count
+1680,n7ARing,7-membered aliphatic ring count
+1681,n8ARing,8-membered aliphatic ring count
+1682,n9ARing,9-membered aliphatic ring count
+1683,n10ARing,10-membered aliphatic ring count
+1684,n11ARing,11-membered aliphatic ring count
+1685,n12ARing,12-membered aliphatic ring count
+1686,nG12ARing,12-or-greater-membered aliphatic ring count
+1687,nAHRing,aliphatic hetero ring count
+1688,n3AHRing,3-membered aliphatic hetero ring count
+1689,n4AHRing,4-membered aliphatic hetero ring count
+1690,n5AHRing,5-membered aliphatic hetero ring count
+1691,n6AHRing,6-membered aliphatic hetero ring count
+1692,n7AHRing,7-membered aliphatic hetero ring count
+1693,n8AHRing,8-membered aliphatic hetero ring count
+1694,n9AHRing,9-membered aliphatic hetero ring count
+1695,n10AHRing,10-membered aliphatic hetero ring count
+1696,n11AHRing,11-membered aliphatic hetero ring count
+1697,n12AHRing,12-membered aliphatic hetero ring count
+1698,nG12AHRing,12-or-greater-membered aliphatic hetero ring count
+1699,nFRing,fused ring count
+1700,n4FRing,4-membered fused ring count
+1701,n5FRing,5-membered fused ring count
+1702,n6FRing,6-membered fused ring count
+1703,n7FRing,7-membered fused ring count
+1704,n8FRing,8-membered fused ring count
+1705,n9FRing,9-membered fused ring count
+1706,n10FRing,10-membered fused ring count
+1707,n11FRing,11-membered fused ring count
+1708,n12FRing,12-membered fused ring count
+1709,nG12FRing,12-or-greater-membered fused ring count
+1710,nFHRing,fused hetero ring count
+1711,n4FHRing,4-membered fused hetero ring count
+1712,n5FHRing,5-membered fused hetero ring count
+1713,n6FHRing,6-membered fused hetero ring count
+1714,n7FHRing,7-membered fused hetero ring count
+1715,n8FHRing,8-membered fused hetero ring count
+1716,n9FHRing,9-membered fused hetero ring count
+1717,n10FHRing,10-membered fused hetero ring count
+1718,n11FHRing,11-membered fused hetero ring count
+1719,n12FHRing,12-membered fused hetero ring count
+1720,nG12FHRing,12-or-greater-membered fused hetero ring count
+1721,nFaRing,aromatic fused ring count
+1722,n4FaRing,4-membered aromatic fused ring count
+1723,n5FaRing,5-membered aromatic fused ring count
+1724,n6FaRing,6-membered aromatic fused ring count
+1725,n7FaRing,7-membered aromatic fused ring count
+1726,n8FaRing,8-membered aromatic fused ring count
+1727,n9FaRing,9-membered aromatic fused ring count
+1728,n10FaRing,10-membered aromatic fused ring count
+1729,n11FaRing,11-membered aromatic fused ring count
+1730,n12FaRing,12-membered aromatic fused ring count
+1731,nG12FaRing,12-or-greater-membered aromatic fused ring count
+1732,nFaHRing,aromatic fused hetero ring count
+1733,n4FaHRing,4-membered aromatic fused hetero ring count
+1734,n5FaHRing,5-membered aromatic fused hetero ring count
+1735,n6FaHRing,6-membered aromatic fused hetero ring count
+1736,n7FaHRing,7-membered aromatic fused hetero ring count
+1737,n8FaHRing,8-membered aromatic fused hetero ring count
+1738,n9FaHRing,9-membered aromatic fused hetero ring count
+1739,n10FaHRing,10-membered aromatic fused hetero ring count
+1740,n11FaHRing,11-membered aromatic fused hetero ring count
+1741,n12FaHRing,12-membered aromatic fused hetero ring count
+1742,nG12FaHRing,12-or-greater-membered aromatic fused hetero ring count
+1743,nFARing,aliphatic fused ring count
+1744,n4FARing,4-membered aliphatic fused ring count
+1745,n5FARing,5-membered aliphatic fused ring count
+1746,n6FARing,6-membered aliphatic fused ring count
+1747,n7FARing,7-membered aliphatic fused ring count
+1748,n8FARing,8-membered aliphatic fused ring count
+1749,n9FARing,9-membered aliphatic fused ring count
+1750,n10FARing,10-membered aliphatic fused ring count
+1751,n11FARing,11-membered aliphatic fused ring count
+1752,n12FARing,12-membered aliphatic fused ring count
+1753,nG12FARing,12-or-greater-membered aliphatic fused ring count
+1754,nFAHRing,aliphatic fused hetero ring count
+1755,n4FAHRing,4-membered aliphatic fused hetero ring count
+1756,n5FAHRing,5-membered aliphatic fused hetero ring count
+1757,n6FAHRing,6-membered aliphatic fused hetero ring count
+1758,n7FAHRing,7-membered aliphatic fused hetero ring count
+1759,n8FAHRing,8-membered aliphatic fused hetero ring count
+1760,n9FAHRing,9-membered aliphatic fused hetero ring count
+1761,n10FAHRing,10-membered aliphatic fused hetero ring count
+1762,n11FAHRing,11-membered aliphatic fused hetero ring count
+1763,n12FAHRing,12-membered aliphatic fused hetero ring count
+1764,nG12FAHRing,12-or-greater-membered aliphatic fused hetero ring count
+1765,nRot,rotatable bonds count
+1766,RotRatio,rotatable bonds ratio
+1767,SLogP,Wildman-Crippen LogP
+1768,SMR,Wildman-Crippen MR
+1769,TopoPSA(NO),topological polar surface area (use only nitrogen and oxygen)
+1770,TopoPSA,topological polar surface area
+1771,GGI1,1-ordered raw topological charge
+1772,GGI2,2-ordered raw topological charge
+1773,GGI3,3-ordered raw topological charge
+1774,GGI4,4-ordered raw topological charge
+1775,GGI5,5-ordered raw topological charge
+1776,GGI6,6-ordered raw topological charge
+1777,GGI7,7-ordered raw topological charge
+1778,GGI8,8-ordered raw topological charge
+1779,GGI9,9-ordered raw topological charge
+1780,GGI10,10-ordered raw topological charge
+1781,JGI1,1-ordered mean topological charge
+1782,JGI2,2-ordered mean topological charge
+1783,JGI3,3-ordered mean topological charge
+1784,JGI4,4-ordered mean topological charge
+1785,JGI5,5-ordered mean topological charge
+1786,JGI6,6-ordered mean topological charge
+1787,JGI7,7-ordered mean topological charge
+1788,JGI8,8-ordered mean topological charge
+1789,JGI9,9-ordered mean topological charge
+1790,JGI10,10-ordered mean topological charge
+1791,JGT10,10-ordered global topological charge
+1792,Diameter,topological diameter
+1793,Radius,topological radius
+1794,TopoShapeIndex,topological shape index
+1795,PetitjeanIndex,Petitjean index
+1796,Vabc,ABC van der waals volume
+1797,VAdjMat,vertex adjacency information
+1798,MWC01,walk count (leg-1)
+1799,MWC02,walk count (leg-2)
+1800,MWC03,walk count (leg-3)
+1801,MWC04,walk count (leg-4)
+1802,MWC05,walk count (leg-5)
+1803,MWC06,walk count (leg-6)
+1804,MWC07,walk count (leg-7)
+1805,MWC08,walk count (leg-8)
+1806,MWC09,walk count (leg-9)
+1807,MWC10,walk count (leg-10)
+1808,TMWC10,total walk count (leg-10)
+1809,SRW02,"walk count (leg-2, only self returning walk)"
+1810,SRW03,"walk count (leg-3, only self returning walk)"
+1811,SRW04,"walk count (leg-4, only self returning walk)"
+1812,SRW05,"walk count (leg-5, only self returning walk)"
+1813,SRW06,"walk count (leg-6, only self returning walk)"
+1814,SRW07,"walk count (leg-7, only self returning walk)"
+1815,SRW08,"walk count (leg-8, only self returning walk)"
+1816,SRW09,"walk count (leg-9, only self returning walk)"
+1817,SRW10,"walk count (leg-10, only self returning walk)"
+1818,TSRW10,"total walk count (leg-10, only self returning walk)"
+1819,MW,exact molecular weight
+1820,AMW,averaged exact molecular weight
+1821,WPath,Wiener index
+1822,WPol,Wiener polarity index
+1823,Zagreb1,Zagreb index (version 1)
+1824,Zagreb2,Zagreb index (version 2)
+1825,mZagreb1,modified Zagreb index (version 1)
+1826,mZagreb2,modified Zagreb index (version 2)
